@@ -1,0 +1,288 @@
+[
+  {
+    "id": "f1",
+    "question": "Choose the correct HTML element for the largest heading",
+    "options" : ["&lt;h1&gt;", "&lt;head&gt;", "&lt;h6&gt;", "&lt;heading&gt;"],
+    "answer": "h1",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "html"
+  },
+  {
+    "id": "f2",
+    "question": "Block elements are normally displayed without starting a new line.",
+    "options" : ["true","false"],
+    "answer": "false",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "html"
+  },
+  {
+    "id": "f3",
+    "question": "In HTML, what does the &lt;aside&gt; element define?",
+    "options" : ["Content aside from the page content", "A navigation list to be shown at the left side of the page", "The ASCII character-set; to send information between computers on the Internet"],
+    "answer": "Content aside from the page content",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "html"
+  },
+  {
+    "id": "f4",
+    "question": "Which is the correct CSS syntax?",
+    "options" : ["body:color=black;", "{body:color=black;}", "body {color: black;}", "{body;color:black;}"],
+    "answer": "body {color: black;}",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "css"
+  },
+  {
+    "id": "f5",
+    "question": "How do you display hyperlinks without an underline?",
+    "options" : ["a {text-decoration:no-underline;}", "a {underline:none;}", "a {decoration:no-underline;}", "a {text-decoration:none;}"],
+    "answer": "a {text-decoration:none;}",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "css"
+  },
+  {
+    "id": "f6",
+    "question": "When using the padding property; are you allowed to use negative values?",
+    "options" : ["no", "yes"],
+    "answer": "no",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "css"
+  },
+  {
+    "id": "f7",
+    "question": "What is the default value of the position property?",
+    "options" : ["static", "absolute", "relative", "fixed"],
+    "answer": "static",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "css"
+  },
+  {
+    "id": "f8",
+    "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "medium",
+    "type": "open",
+    "subcategory": "css"
+  },
+  {
+    "id": "f1",
+    "question": "Choose the correct HTML element for the largest heading",
+    "options" : ["&lt;h1&gt;", "&lt;head&gt;", "&lt;h6&gt;", "&lt;heading&gt;"],
+    "answer": "h1",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "html"
+  },
+  {
+    "id": "f2",
+    "question": "Block elements are normally displayed without starting a new line.",
+    "options" : ["true","false"],
+    "answer": "false",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "html"
+  },
+  {
+    "id": "f3",
+    "question": "In HTML, what does the &lt;aside&gt; element define?",
+    "options" : ["Content aside from the page content", "A navigation list to be shown at the left side of the page", "The ASCII character-set; to send information between computers on the Internet"],
+    "answer": "Content aside from the page content",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "html"
+  },
+  {
+    "id": "f4",
+    "question": "Which is the correct CSS syntax?",
+    "options" : ["body:color=black;", "{body:color=black;}", "body {color: black;}", "{body;color:black;}"],
+    "answer": "body {color: black;}",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "css"
+  },
+  {
+    "id": "f5",
+    "question": "How do you display hyperlinks without an underline?",
+    "options" : ["a {text-decoration:no-underline;}", "a {underline:none;}", "a {decoration:no-underline;}", "a {text-decoration:none;}"],
+    "answer": "a {text-decoration:none;}",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "css"
+  },
+  {
+    "id": "f6",
+    "question": "When using the padding property; are you allowed to use negative values?",
+    "options" : ["no", "yes"],
+    "answer": "no",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "css"
+  },
+  {
+    "id": "f7",
+    "question": "What is the default value of the position property?",
+    "options" : ["static", "absolute", "relative", "fixed"],
+    "answer": "static",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "css"
+  },
+  {
+    "id": "f8",
+    "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "medium",
+    "type": "open",
+    "subcategory": "css"
+  }, {
+  "id": "f1",
+  "question": "Choose the correct HTML element for the largest heading",
+  "options" : ["&lt;h1&gt;", "&lt;head&gt;", "&lt;h6&gt;", "&lt;heading&gt;"],
+  "answer": "h1",
+  "complexity": "easy",
+  "type": "with options",
+  "subcategory": "html"
+},
+  {
+    "id": "f2",
+    "question": "Block elements are normally displayed without starting a new line.",
+    "options" : ["true","false"],
+    "answer": "false",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "html"
+  },
+  {
+    "id": "f3",
+    "question": "In HTML, what does the &lt;aside&gt; element define?",
+    "options" : ["Content aside from the page content", "A navigation list to be shown at the left side of the page", "The ASCII character-set; to send information between computers on the Internet"],
+    "answer": "Content aside from the page content",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "html"
+  },
+  {
+    "id": "f4",
+    "question": "Which is the correct CSS syntax?",
+    "options" : ["body:color=black;", "{body:color=black;}", "body {color: black;}", "{body;color:black;}"],
+    "answer": "body {color: black;}",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "css"
+  },
+  {
+    "id": "f5",
+    "question": "How do you display hyperlinks without an underline?",
+    "options" : ["a {text-decoration:no-underline;}", "a {underline:none;}", "a {decoration:no-underline;}", "a {text-decoration:none;}"],
+    "answer": "a {text-decoration:none;}",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "css"
+  },
+  {
+    "id": "f6",
+    "question": "When using the padding property; are you allowed to use negative values?",
+    "options" : ["no", "yes"],
+    "answer": "no",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "css"
+  },
+  {
+    "id": "f7",
+    "question": "What is the default value of the position property?",
+    "options" : ["static", "absolute", "relative", "fixed"],
+    "answer": "static",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "css"
+  },
+  {
+    "id": "f8",
+    "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "medium",
+    "type": "open",
+    "subcategory": "css"
+  }, {
+  "id": "f1",
+  "question": "Choose the correct HTML element for the largest heading",
+  "options" : ["&lt;h1&gt;", "&lt;head&gt;", "&lt;h6&gt;", "&lt;heading&gt;"],
+  "answer": "h1",
+  "complexity": "easy",
+  "type": "with options",
+  "subcategory": "html"
+},
+  {
+    "id": "f2",
+    "question": "Block elements are normally displayed without starting a new line.",
+    "options" : ["true","false"],
+    "answer": "false",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "html"
+  },
+  {
+    "id": "f3",
+    "question": "In HTML, what does the &lt;aside&gt; element define?",
+    "options" : ["Content aside from the page content", "A navigation list to be shown at the left side of the page", "The ASCII character-set; to send information between computers on the Internet"],
+    "answer": "Content aside from the page content",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "html"
+  },
+  {
+    "id": "f4",
+    "question": "Which is the correct CSS syntax?",
+    "options" : ["body:color=black;", "{body:color=black;}", "body {color: black;}", "{body;color:black;}"],
+    "answer": "body {color: black;}",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "css"
+  },
+  {
+    "id": "f5",
+    "question": "How do you display hyperlinks without an underline?",
+    "options" : ["a {text-decoration:no-underline;}", "a {underline:none;}", "a {decoration:no-underline;}", "a {text-decoration:none;}"],
+    "answer": "a {text-decoration:none;}",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "css"
+  },
+  {
+    "id": "f6",
+    "question": "When using the padding property; are you allowed to use negative values?",
+    "options" : ["no", "yes"],
+    "answer": "no",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "css"
+  },
+  {
+    "id": "f7",
+    "question": "What is the default value of the position property?",
+    "options" : ["static", "absolute", "relative", "fixed"],
+    "answer": "static",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "css"
+  },
+  {
+    "id": "f8",
+    "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "medium",
+    "type": "open",
+    "subcategory": "css"
+  }
+]

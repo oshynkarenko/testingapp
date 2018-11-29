@@ -1,0 +1,58 @@
+[
+  {
+    "id": "rf1",
+    "question": "Choose the correct HTML element for the largest heading",
+    "answercount": "300",
+    "correctanswers": "280",
+    "subcategory": "html"
+  },
+  {
+    "id": "rf2",
+    "question": "Block elements are normally displayed without starting a new line.",
+    "answercount": "300",
+    "correctanswers": "260",
+    "subcategory": "html"
+  },
+  {
+    "id": "rf3",
+    "question": "In HTML, what does the &lt;aside&gt; element define?",
+    "answercount": "300",
+    "correctanswers": "245",
+    "subcategory": "html"
+  },
+  {
+    "id": "rf4",
+    "question": "Which is the correct CSS syntax?",
+    "answercount": "300",
+    "correctanswers": "230",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf5",
+    "question": "How do you display hyperlinks without an underline?",
+    "answercount": "300",
+    "correctanswers": "276",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf6",
+    "question": "When using the padding property; are you allowed to use negative values?",
+    "answercount": "300",
+    "correctanswers": "235",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf7",
+    "question": "What is the default value of the position property?",
+    "answercount": "300",
+    "correctanswers": "254",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf8",
+    "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
+    "answercount": "300",
+    "correctanswers": "280",
+    "subcategory": "css"
+  }
+]

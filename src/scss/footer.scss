@@ -1,0 +1,24 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(219,245,246,0.9);
+  font-size: 0.8em;
+  color: #178286;
+}
+
+.footer__creds {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__cred, .footer__copyright {
+  margin: 5px 20px;
+  color: inherit;
+  text-decoration: none;
+}

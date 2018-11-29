@@ -1,0 +1,21 @@
+<script type="text/template" id="contacts">
+    <h2 class="content__header">Visit us @:</h2>
+    <div class="address">
+        <div class="address__text">
+            <p class="address__address_line">Testing and Training Center</p>
+            <p class="address__address_line">7, Khreshchatyk Street</p>
+            <p class="address__address_line">Kyiv-01001</p>
+            <p class="address__address_line">Ukraine</p>
+        </div>
+        <iframe class="contacts__map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2540.4672647753723!2d30.523684522585206!3d50.45102295789146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1542980074241" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+    <div id="map"></div>
+    <h2 class="content__header">Send us a message:</h2>
+    <form action="mailto:shynkarenko.o@gmail.com" enctype="text/plain">
+        <p><label class="contacts__label"> Your email:<input type="text" class="contacts__input" id="contacts-email" required placeholder="example@example.com" pattern="([A-Za-z0-9#-.])+@{1}([A-Za-z0-9])+\.([A-Za-z])+$"></label></p>
+        <p><label class="contacts__label">Your name:<input type="text" class="contacts__input" id="contacts-name" required placeholder="Please enter your name"></label></p>
+        <p><label class="contacts__label">Subject:<input type="text" class="contacts__input" id="contacts-subject" required placeholder="Please indicate how we can help you"></label></p>
+        <p><label class="contacts__label">Message:<textarea class="contacts__input" id="contacts-message" rows="10" required></textarea></label></p>
+        <button class="contacts__button" id="contacts-button">Send</button>
+    </form>
+</script>

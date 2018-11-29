@@ -1,0 +1,24 @@
+.content {
+  position: relative;
+  top: 120px;
+  width: 90%;
+  margin: auto;
+}
+
+.content__header {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.content__text {
+  width: 50%;
+  text-align: justify;
+}
+
+.content__text--centered {
+  text-align: center;
+  line-height: 2em;
+}

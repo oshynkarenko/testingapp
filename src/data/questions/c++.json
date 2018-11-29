@@ -1,0 +1,66 @@
+[
+  {
+    "id": "j1",
+    "question": "FGHIJ",
+    "options" : ["&lt;h1&gt;", "&lt;head&gt;", "&lt;h6&gt;", "&lt;heading&gt;"],
+    "answer": "h1",
+    "complexity": "1",
+    "subcategory": "html"
+  },
+  {
+    "id": "j2",
+    "question": "Block elements are normally displayed without starting a new line.",
+    "options" : ["true","false"],
+    "answer": "false",
+    "complexity": "1",
+    "subcategory": "html"
+  },
+  {
+    "id": "j3",
+    "question": "In HTML, what does the &lt;aside&gt; element define?",
+    "options" : ["Content aside from the page content", "A navigation list to be shown at the left side of the page", "The ASCII character-set; to send information between computers on the Internet"],
+    "answer": "Content aside from the page content",
+    "complexity": "1",
+    "subcategory": "html"
+  },
+  {
+    "id": "j4",
+    "question": "Which is the correct CSS syntax?",
+    "options" : ["body:color=black;", "{body:color=black;}", "body {color: black;}", "{body;color:black;}"],
+    "answer": "body {color: black;}",
+    "complexity": "1",
+    "subcategory": "css"
+  },
+  {
+    "id": "j5",
+    "question": "How do you display hyperlinks without an underline?",
+    "options" : ["a {text-decoration:no-underline;}", "a {underline:none;}", "a {decoration:no-underline;}", "a {text-decoration:none;}"],
+    "answer": "a {text-decoration:none;}",
+    "complexity": "1",
+    "subcategory": "css"
+  },
+  {
+    "id": "j6",
+    "question": "When using the padding property; are you allowed to use negative values?",
+    "options" : ["no", "yes"],
+    "answer": "no",
+    "complexity": "2",
+    "subcategory": "css"
+  },
+  {
+    "id": "j7",
+    "question": "What is the default value of the position property?",
+    "options" : ["static", "absolute", "relative", "fixed"],
+    "answer": "static",
+    "complexity": "1",
+    "subcategory": "css"
+  },
+  {
+    "id": "j8",
+    "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "1",
+    "subcategory": "css"
+  }
+]

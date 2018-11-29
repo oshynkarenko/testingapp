@@ -1,0 +1,79 @@
+.tour__benefits {
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.benefits__header {
+  padding-top: 30px;
+  margin-bottom: 50px;
+  font-size: 1.1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.benefits__details {
+  width: 30%;
+  background-color: rgba(219,245,246,0.3);
+}
+
+.benefits__description {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: justify;
+  line-height: 1.3em;
+}
+
+.tour__tests_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.test-list__option {
+  width: 200px;
+  height: 50px;
+  margin: 20px;
+  padding-top: 0.7em;
+  border: 1px solid white;
+  background-color: rgba(219,245,246,0.3);
+  color: #ebebeb;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+
+.tour__search_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+}
+
+.partners_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.partners_list__item {
+  width: 150px;
+  margin: 20px;
+}
+
+.partners_list__image {
+  width: 150px;
+  height: auto;
+  border: none;
+}

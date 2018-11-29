@@ -1,0 +1,37 @@
+<script type="text/template" id="statistics-charts">
+<div class="statistics">
+    <div class="statistics__chart">
+        <canvas id="stats-frontend"></canvas>
+    </div>
+    <div class="statistics__chart">
+        <canvas id="stats-java"></canvas>
+    </div>
+    <div class="statistics__chart">
+        <canvas id="stats-c++"></canvas>
+    </div>
+    <div class="statistics__chart">
+        <canvas id="stats-python"></canvas>
+    </div>
+    <div class="statistics__chart">
+        <canvas id="stats-ruby"></canvas>
+    </div>
+</div>
+</script>
+<script type="text/template" id="statistics-tables">
+<div class="statistics__table__controls" id="table-controls">
+    <button class="table__controls__button table__controls__button--active">Frontend</button>
+    <button class="table__controls__button">Java</button>
+    <button class="table__controls__button">C++</button>
+    <button class="table__controls__button">Python</button>
+    <button class="table__controls__button">Ruby</button>
+</div>
+<table class="statistics__table">
+    <thead class="table__head">
+        <tr>
+            <th class="table__header">Question</th>
+            <th class="table__header">Result<span class="table__sort_button table__sort_button--down" id="table-sort"></span></th>
+        </tr>
+    </thead>
+<tbody class="table__body" id="statistics-table-body"></tbody>
+</table>
+</script>

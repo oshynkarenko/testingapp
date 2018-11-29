@@ -1,0 +1,82 @@
+[
+  {
+    "test": "frontend",
+    "result": "78"
+  },
+  {
+    "test": "frontend",
+    "result": "86"
+  },
+  {
+    "test": "java",
+    "result": "77"
+  },
+  {
+    "test": "python",
+    "result": "78"
+  },
+  {
+    "test": "frontend",
+    "result": "98"
+  },
+  {
+    "test": "frontend",
+    "result": "75"
+  },
+  {
+    "test": "java",
+    "result": "60"
+  },
+  {
+    "test": "c++",
+    "result": "69"
+  },
+  {
+    "test": "frontend",
+    "result": "55"
+  },
+  {
+    "test": "frontend",
+    "result": "86"
+  },
+  {
+    "test": "java",
+    "result": "78"
+  },
+  {
+    "test": "java",
+    "result": "68"
+  },
+  {
+    "test": "ruby",
+    "result": "76"
+  },
+  {
+    "test": "frontend",
+    "result": "47"
+  },
+  {
+    "test": "frontend",
+    "result": "45"
+  },
+  {
+    "test": "java",
+    "result": "18"
+  },
+  {
+    "test": "python",
+    "result": "36"
+  },
+  {
+    "test": "ruby",
+    "result": "43"
+  },
+  {
+    "test": "frontend",
+    "result": "78"
+  },
+  {
+    "test": "java",
+    "result": "35"
+  }
+]
