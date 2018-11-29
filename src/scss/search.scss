@@ -7,7 +7,7 @@
 
 .search_block--categorized {
   position: relative;
-  top: 20px;
+  top: 120px;
   left: 65%;
   @media screen and (max-width: 992px) {
     left:50%;
@@ -16,6 +16,10 @@
     left:50%;
     transform: translateX(-60%);
   }
+}
+
+.search_block--home {
+  top: 20px;
 }
 
 .search_block__field {

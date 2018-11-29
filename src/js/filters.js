@@ -5,7 +5,7 @@ export default class Filters {
         this.openLink = document.getElementById('test_link');
         this.container = document.getElementById('filters');
         this.container.addEventListener('input', this.checkOptions.bind(this));
-        document.getElementById('header-menu').addEventListener('click', this.removeFilters.bind(this));
+        document.querySelector('.header').addEventListener('click', this.removeFilters.bind(this));
     }
 
     render() {

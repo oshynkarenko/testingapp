@@ -3,8 +3,25 @@ import {body, content, test} from './main';
 export default class Search {
     constructor() {
         this.container = {};
+        this.categorized = document.querySelector('.search_block--categorized');
         body.addEventListener('click', this.showResults.bind(this));
-        document.getElementById('header-menu').addEventListener('click', this.hideResults.bind(this));
+        document.querySelector('.header').addEventListener('click', this.updateLayout.bind(this));
+    }
+
+    updateLayout() {
+        debugger;
+        if (event.target === document.getElementById('logo')) {
+            this.categorized.classList.add('search_block--home');
+        } else {
+            this.categorized.classList.remove('search_block--home');
+        }
+        if (content.classList.contains('content__search_results')) {
+            content.classList.remove('content__search_results');
+            this.container.querySelector('.search_block__field').value = '';
+            if (this.container.querySelector('.search_block__categories')) {
+                this.container.querySelector('.search_block__categories').value = 'Everywhere'
+            }
+        }
     }
 
     setDataUrls() {
@@ -48,16 +65,6 @@ export default class Search {
         if (event.target.classList.contains('search_block__button') || event.target.classList.contains('button__icon')) {
             this.container = event.target.parentNode.parentNode || event.target.parentNode.parentNode.parentNode;
             this.getQuestionList(event);
-        }
-    }
-
-    hideResults() {
-        if (content.classList.contains('content__search_results')) {
-            content.classList.remove('content__search_results');
-            this.container.querySelector('.search_block__field').value = '';
-            if (this.container.querySelector('.search_block__categories')) {
-                this.container.querySelector('.search_block__categories').value = 'Everywhere'
-            }
         }
     }
 }

@@ -7,7 +7,7 @@ export default class Timer {
         this.start();
         this.stopButton = document.querySelector('.test__end_button');
         content.addEventListener('click', this.stop.bind(this));
-        document.getElementById('header-menu').addEventListener('click', this.hide.bind(this));
+        document.querySelector('.header').addEventListener('click', this.hide.bind(this));
     }
 
     render() {
