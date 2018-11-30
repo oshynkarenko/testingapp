@@ -1,26 +1,18 @@
 .content__test {
-  position: relative;
-  top: 100px;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   width: 65%;
-  margin: 50px auto;
+  margin: 0 auto;
 }
 
 .test__message {
   text-align: center;
-  margin-bottom: 10px;
-  &:nth-child(even) {
-    font-size: 2em;
-    margin-bottom: 30px;
-  }
+  margin: 30px auto 10px;
 }
 
 .sidebar--active {
-  position: relative;
-  top: 120px;
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   justify-content: flex-start;
   width: 15%;
@@ -66,15 +58,12 @@
   text-transform: uppercase;
 }
 
-/*.filter__option, .filter__suboption {
-  display: block;
-}
-*/
 .filter__button {
   display: block;
   width: 70%;
   height: 30px;
-  margin: 30px auto;
+  margin: 10px auto 50px;
+  background-color: #178286;
   border: none;
   color: #ebebeb;
   font-weight: bold;

@@ -61,8 +61,7 @@ export default class Slider {
         this.autoSlider = setInterval(this.moveRight.bind(this), 4000);
     }
 
-    hideSlider() {
-        event.preventDefault();
+    hideSlider(event) {
         this.container.classList.add('header__slider_block--hidden');
             clearInterval(this.autoSlider);
     }

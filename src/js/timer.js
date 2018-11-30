@@ -30,17 +30,19 @@ export default class Timer {
         }, 4);
     };
 
-    stop() {
+    stop(event) {
         if (event.target === this.stopButton) {
             clearInterval(this.id);
         }
     }
 
-    hide() {
+    hide(event) {
+        debugger;
         if (event.target.parentNode.parentNode !== this.openLink) {
             this.container.classList.remove('timer_block--active');
         }
     }
+
 
     update(time) {
         this.timerId.textContent = this.getFormattedTime(time);

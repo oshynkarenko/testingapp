@@ -8,8 +8,7 @@ export default class Search {
         document.querySelector('.header').addEventListener('click', this.updateLayout.bind(this));
     }
 
-    updateLayout() {
-        debugger;
+    updateLayout(event) {
         if (event.target === document.getElementById('logo')) {
             this.categorized.classList.add('search_block--home');
         } else {

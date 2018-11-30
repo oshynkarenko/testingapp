@@ -8,7 +8,7 @@ export default class Filters {
         document.querySelector('.header').addEventListener('click', this.removeFilters.bind(this));
     }
 
-    render() {
+    render(event) {
         this.container.classList.add('sidebar--active');
         this.container.innerHTML = document.getElementById('test_filters').textContent.trim();
         this.options = document.getElementsByClassName('filter__option');
@@ -16,17 +16,17 @@ export default class Filters {
         this.typeOptions = Array.from(document.getElementsByClassName('filter__suboption--type'));
         this.filterItems = Array.from(document.getElementsByClassName('filter__item'));
         this.filterItems.forEach((item) => item.addEventListener('input', this.checkOptions.bind(this)));
-        this.checkFilters();
+        this.checkFilters(event);
     }
 
-    removeFilters() {
+    removeFilters(event) {
         if (event.target.textContent !== 'Tests' && event.target.parentNode.parentNode !== this.openLink) {
             this.container.classList.remove('sidebar--active');
             content.classList.remove('content__test');
         }
     }
 
-    checkFilters() {
+    checkFilters(event) {
         let selectedArea = Array.from(this.options).find((option) => option.labels[0].textContent === event.target.textContent);
         if (selectedArea) {
             selectedArea.setAttribute('checked', 'true');
@@ -35,7 +35,7 @@ export default class Filters {
         }
     }
 
-    checkOptions() {
+    checkOptions(event) {
         if (event.target.classList.contains('filter__option')) {
             if(event.target.checked === true) {
                 let selectedArea = event.target;

@@ -19,17 +19,16 @@ export default class Gallery {
                         <img class="gallery__enlarge__image" src=${event.target.src} alt=${event.target.alt}>
                         `;
             let frame = createElement('div', `gallery__enlarge--${format}`, this.container);
-            frame.classList.add('gallery__enlarge');
             frame.innerHTML = markUp;
-            this.enlarged = document.querySelector('.gallery__enlarge');
+            this.enlarged = document.querySelector(`.gallery__enlarge--${format}`);
             this.closeButton = document.getElementById('gallery__close_btn');
             this.closeButton.addEventListener('click', this.hidePicture.bind(this));
-        }else {
-            this.hidePicture();
         }
     }
 
     hidePicture() {
-        this.container.removeChild(this.enlarged);
+        if (this.enlarged !== null) {
+            this.container.removeChild(this.enlarged);
+        }
     }
 }

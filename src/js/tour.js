@@ -9,8 +9,7 @@ export default class Tour {
          document.getElementById('logo').addEventListener('click', this.render.bind(this));
     }
 
-    render() {
-        event.preventDefault();
+    render(event) {
         this.container.innerHTML = document.getElementById('tour').textContent.trim();
         this.gallery = new Gallery();
     }

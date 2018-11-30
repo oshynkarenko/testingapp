@@ -30,7 +30,7 @@ export default class Pagination {
         this.buttons[this.currentPage].classList.add('pagination__page--active');
     }
 
-    switchPage() {
+    switchPage(event) {
         if(event.target.classList.contains('pagination__page') && event.target.classList.contains('pagination__arrow') === false && event.target.classList.contains('pagination__page__control--left') === false && event.target.classList.contains('pagination__page__control--right') === false) {
             debugger;
             this.buttons.forEach((button) => button.classList.remove('pagination__page--active'));

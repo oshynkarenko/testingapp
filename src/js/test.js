@@ -16,27 +16,28 @@ export default class Test {
         this.currentPageMarkup = [];
     }
 
-    render() {
-        event.preventDefault();
+    render(event) {
         if (event.currentTarget === this.openLink || event.target.classList.contains('test-list__option')) {
-            this.filters.render();
-            this.renderMessage();
+            this.filters.render(event);
+            this.renderMessage(event);
             this.filteredLink = document.getElementById('filter_button');
             this.filteredLink.addEventListener('click', this.renderFilteredTest.bind(this));
             if (event.target.textContent !== 'Tests') {
                 this.startButton = document.getElementById('start_test');
                 this.startButton.addEventListener('click', this.makeTest.bind(this));
-                this.getData(this.setDataUrls());
+                this.getData(this.setDataUrls(event));
             }
         }
     }
 
-    renderFilteredTest() {
-        this.renderMessage();
-        this.getFilteredData(this.setDataUrls());
+    renderFilteredTest(event) {
+        this.renderMessage(event);
+        this.getFilteredData(this.setDataUrls(event));
+        this.startButton = document.getElementById('start_test');
+        this.startButton.addEventListener('click', this.makeTest.bind(this));
     }
 
-    renderMessage() {
+    renderMessage(event) {
         content.classList.add('content__test');
         if (event.target.textContent === 'Tests') {
             content.innerHTML = `
@@ -77,7 +78,7 @@ export default class Test {
         content.innerHTML = markup;
     }
 
-    setDataUrls() {
+    setDataUrls(event) {
         if (event.target.textContent !== 'Tests') {
             if (event.target.textContent === 'Apply Filters') {
                 let selectedAreas = Array.from(this.filters.options).filter((elem) => elem.checked === true);
@@ -89,21 +90,36 @@ export default class Test {
     }
 
     getData(url) {
-        this.allQuestions = [];
-        fetch(url, {method: "GET"})
-            .then((response) => response.json())
-            .then((data) => data.map((elem) => this.allQuestions.push(elem)))
-            .catch((error) => alert(error + 'Unfortunately, the server is currently under maintenance. Please try again later'))
+        let saveData = this.saveData.bind(this);
+        let request = new XMLHttpRequest();
+        request.open('get', url);
+        request.send();
+        request.onreadystatechange = function () {
+            if (request.readyState !== 4) return;
+            let data = JSON.parse(request.responseText);
+            saveData(data);
+        }
     }
 
     getFilteredData(arr) {
         this.allQuestions = [];
-        Promise.all(arr.map((url) => fetch(url, {method: "GET"})
-            .then((response) => response.json())))
-            .then((data) => data.reduce((accum, elem) => accum.concat(elem)))
-            .then((res) => this.filters.selectQuestions(res))
-            .then((questions) => questions.forEach((elem) => this.allQuestions.push((elem))))
-            .catch((error) => alert(error + 'Unfortunately, the server is currently under maintenance. Please try again later'))
+        let filters = this.filters;
+        let saveData = this.saveData.bind(this);
+        arr.forEach((url) => {
+            let request = new XMLHttpRequest();
+            request.open('get', url);
+            request.send();
+            request.onreadystatechange = function () {
+                if (request.readyState !== 4) return;
+                let data = JSON.parse(request.responseText);
+                let filteredData = filters.selectQuestions(data);
+                saveData(filteredData);
+            }
+        })
+    }
+
+    saveData (data) {
+        data.forEach((elem) => this.allQuestions.push(elem));
     }
 
     makeTest() {
