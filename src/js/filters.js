@@ -11,7 +11,7 @@ export default class Filters {
     render(event) {
         this.container.classList.add('sidebar--active');
         this.container.innerHTML = document.getElementById('test_filters').textContent.trim();
-        this.options = document.getElementsByClassName('filter__option');
+        this.options = Array.from(document.getElementsByClassName('filter__option'));
         this.topicOptions = Array.from(document.getElementsByClassName('filter__suboption--topic'));
         this.typeOptions = Array.from(document.getElementsByClassName('filter__suboption--type'));
         this.filterItems = Array.from(document.getElementsByClassName('filter__item'));
@@ -27,7 +27,7 @@ export default class Filters {
     }
 
     checkFilters(event) {
-        let selectedArea = Array.from(this.options).find((option) => option.labels[0].textContent === event.target.textContent);
+        let selectedArea = this.options.find((option) => option.parentNode.textContent === event.target.textContent);
         if (selectedArea) {
             selectedArea.setAttribute('checked', 'true');
             let itemsToCheck = Array.from(selectedArea.parentNode.parentNode.querySelector('.filter__suboptions').children);
@@ -56,8 +56,8 @@ export default class Filters {
     selectQuestions(arr) {
         let selectedTopicsArr = this.topicOptions.filter((option) => option.checked === true);
         let selectedTypeArr = this.typeOptions.filter((option) =>  option.checked === true);
-        let selectedTopics = selectedTopicsArr.map((option) => option.labels[0].textContent.toLowerCase());
-        let selectedTypes = selectedTypeArr.map((option) => option.labels[0].textContent.toLowerCase());
+        let selectedTopics = selectedTopicsArr.map((option) => option.parentNode.textContent.toLowerCase());
+        let selectedTypes = selectedTypeArr.map((option) => option.parentNode.textContent.toLowerCase());
         let topicRes = arr.filter((elem) => selectedTopics.includes(elem.subcategory));
         let res;
         selectedTypes.length > 0 ? res = topicRes.filter((elem) => selectedTypes.includes(elem.complexity) || selectedTypes.includes(elem.type)): res = topicRes;

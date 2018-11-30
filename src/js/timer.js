@@ -5,7 +5,6 @@ export default class Timer {
     constructor() {
         this.render();
         this.start();
-        this.stopButton = document.querySelector('.test__end_button');
         content.addEventListener('click', this.stop.bind(this));
         document.querySelector('.header').addEventListener('click', this.hide.bind(this));
     }
@@ -31,7 +30,7 @@ export default class Timer {
     };
 
     stop(event) {
-        if (event.target === this.stopButton) {
+        if (event.target === document.querySelector('.test__end_button')) {
             clearInterval(this.id);
         }
     }
