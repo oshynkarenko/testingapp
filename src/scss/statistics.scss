@@ -9,19 +9,23 @@
 
 .statistics__chart {
   width: 50%;
+  @media screen and (max-width: 780px) {
+    width: 70%;
+  }
 }
 
 .statistics__table__controls {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  width: 50%;
+  justify-content: center;
+  width: 80%;
   margin: 50px auto;
 }
 
 .table__controls__button {
   width: 100px;
   height: 30px;
+  margin: 10px;
   border: none;
   background-color: #ebebeb;
   color: #178286;
@@ -38,6 +42,9 @@
 .statistics__table {
   width: 60%;
   margin: 0 auto 70px;
+  @media screen and (max-width: 992px) {
+    width: 80%;
+  }
 }
 
 .table__head {

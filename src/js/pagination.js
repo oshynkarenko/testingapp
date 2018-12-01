@@ -32,7 +32,6 @@ export default class Pagination {
 
     switchPage(event) {
         if(event.target.classList.contains('pagination__page') && event.target.classList.contains('pagination__arrow') === false && event.target.classList.contains('pagination__page__control--left') === false && event.target.classList.contains('pagination__page__control--right') === false) {
-            debugger;
             this.buttons.forEach((button) => button.classList.remove('pagination__page--active'));
             this.currentPage = Number(event.target.textContent);
             test.currentPageMarkup = test.markup[this.currentPage - 1];

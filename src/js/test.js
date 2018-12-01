@@ -43,11 +43,11 @@ export default class Test {
             content.innerHTML = `
                                 <p class="test__message">Please select area of your interest below or apply relevant filters</p>
                                 <div class="tour__tests_list" id="tour-test-link">
-                                    <a class="test-list__option" href="#">Frontend</a>
-                                    <a class="test-list__option" href="#">Java</a>
-                                    <a class="test-list__option" href="#">C++</a>
-                                    <a class="test-list__option" href="#">Python</a>
-                                    <a class="test-list__option" href="#">Ruby</a>
+                                    <button class="test-list__option" href="#">Frontend</button>
+                                    <button class="test-list__option" href="#">Java</button>
+                                    <button class="test-list__option" href="#">C++</button>
+                                    <button class="test-list__option" href="#">Python</button>
+                                    <button class="test-list__option" href="#">Ruby</button>
                                 </div>
                                 `
         } else {

@@ -1,14 +1,24 @@
 .address {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: flex-start;
-  width: 80%;
+  width: 90%;
   margin: auto;
+  @media screen and (max-width: 780px) {
+    flex-direction: column;
+  }
+}
+
+.address__text {
+  margin-bottom: 20px;
 }
 
 .contacts__map {
   border-radius: 10px;
+  @media screen and (max-width: 780px) {
+    width: 95%;
+  }
 }
 
 .contacts__label {
@@ -23,6 +33,9 @@
   width: 50%;
   margin: 10px auto;
   line-height: 2em;
+  @media screen and (max-width: 780px) {
+    width: 80%;
+  }
 }
 
 .contacts__button {

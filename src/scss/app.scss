@@ -9,4 +9,7 @@ body {
 	font-family: sans-serif;
 	color: #ebebeb;
 	font-size: 18px;
+  @media screen and (max-width: 780px) {
+    font-size: 14px;
+  }
 }

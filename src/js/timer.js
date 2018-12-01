@@ -36,7 +36,6 @@ export default class Timer {
     }
 
     hide(event) {
-        debugger;
         if (event.target.parentNode.parentNode !== this.openLink) {
             this.container.classList.remove('timer_block--active');
         }

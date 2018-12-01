@@ -5,7 +5,8 @@ export default class Search {
         this.container = {};
         this.categorized = document.querySelector('.search_block--categorized');
         body.addEventListener('click', this.showResults.bind(this));
-        document.querySelector('.header').addEventListener('click', this.updateLayout.bind(this));
+        document.querySelector('.header__top').addEventListener('click', this.updateLayout.bind(this));
+        this.searchResults = [];
     }
 
     updateLayout(event) {
@@ -33,12 +34,31 @@ export default class Search {
     }
 
     getData(event, arr) {
-        Promise.all(arr.map((url) => fetch(url, {method: "GET"})
-            .then((response) => response.json())))
-            .then((data) => data.reduce((accum, elem) => accum.concat(elem)))
-            .then((result) => this.findInput(result))
-            .then((questions) => this.renderQuestionList(questions))
-            .catch((error) => alert(error + 'Unfortunately, the server is currently under maintenance. Please try again later'))
+        this.searchResults = [];
+        let searchData = [];
+        this.markup = '';
+        let saveData = this.saveData.bind(this);
+        let findInput = this.findInput.bind(this);
+        let renderQuestionList = this.renderQuestionList.bind(this);
+        arr.forEach((url, i) => {
+            let request = new XMLHttpRequest();
+            request.open('get', url);
+            request.send();
+            request.onreadystatechange = function () {
+                if (request.readyState !== 4) return;
+                let data = JSON.parse(request.responseText);
+                let requestRes = findInput(data);
+                requestRes.forEach((elem) => searchData.push(elem));
+                saveData(searchData);
+                if (i === arr.length - 1) {
+                    renderQuestionList(searchData);
+                }
+            }
+        })
+    }
+
+    saveData (data) {
+        data.forEach((elem) => this.searchResults.push(elem));
     }
 
     findInput(data) {
@@ -51,10 +71,11 @@ export default class Search {
     }
 
     renderQuestionList(data) {
+
         let questionsMarkupArr = data.map((elem) => `<p class="content__text--centered">${elem.question}</p>`);
             content.classList.add('content__search_results');
         if (questionsMarkupArr.length > 0) {
-            content.innerHTML = questionsMarkupArr.reduce((accum, elem) => accum + elem);
+            content.innerHTML = '<h2 class="content__header--small">Questions containing search words</h2>' + questionsMarkupArr.reduce((accum, elem) => accum + elem);
         } else {
             content.innerHTML = '<p class="content__text--centered">No results found</p>';
         }
@@ -62,6 +83,7 @@ export default class Search {
 
     showResults(event) {
         if (event.target.classList.contains('search_block__button') || event.target.classList.contains('button__icon')) {
+            this.categorized.classList.remove('search_block--home');
             this.container = event.target.parentNode.parentNode || event.target.parentNode.parentNode.parentNode;
             this.getQuestionList(event);
         }

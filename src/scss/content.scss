@@ -1,6 +1,5 @@
 .wrapper {
   position: relative;
-  top: 120px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -14,17 +13,25 @@
   margin: auto;
 }
 
-.content__header {
-  margin-top: 100px;
+.content__header, .content__header--small {
+  margin-top: 50px;
   margin-bottom: 50px;
   font-size: 1.5em;
   text-align: center;
   text-transform: uppercase;
 }
 
+.content__header--small {
+  font-size: 1.2em;
+}
+
 .content__text {
   width: 50%;
   text-align: justify;
+  @media screen and (max-width: 780px) {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 .content__text--centered {

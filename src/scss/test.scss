@@ -1,4 +1,6 @@
 .content__test {
+  position: relative;
+  top: 150px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -12,6 +14,8 @@
 }
 
 .sidebar--active {
+  position: relative;
+  top: 120px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

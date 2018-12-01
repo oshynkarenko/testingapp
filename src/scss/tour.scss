@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .benefits__header {
@@ -16,6 +17,10 @@
 .benefits__details {
   width: 30%;
   background-color: rgba(219,245,246,0.3);
+  @media screen and (max-width: 992px) {
+    width: 80%;
+    margin-bottom: 20px;
+  }
 }
 
 .benefits__description {
@@ -40,21 +45,29 @@
   width: 200px;
   height: 50px;
   margin: 20px;
-  padding-top: 0.7em;
   border: 1px solid white;
   background-color: rgba(219,245,246,0.3);
+  font-size: 1em;
   color: #ebebeb;
   text-transform: uppercase;
   text-decoration: none;
   text-align: center;
+  cursor: pointer;
 }
 
 .tour__search_block {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 70%;
   margin: auto;
+  @media screen and (max-width: 992px) {
+    width: 90%;
+  }
+  @media screen and (max-width: 780px) {
+    flex-direction: column;
+  }
 }
 
 .partners_list {

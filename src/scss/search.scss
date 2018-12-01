@@ -3,6 +3,7 @@
   width: 250px;
   margin-top: 20px;
   height: 40px;
+  z-index: 1;
 }
 
 .search_block--categorized {
@@ -20,6 +21,9 @@
 
 .search_block--home {
   top: 20px;
+  @media screen and (max-width: 780px) {
+    top: 0;
+  }
 }
 
 .search_block__field {
@@ -60,5 +64,5 @@
 }
 
 .content__search_results {
-  margin: 120px auto;
+  margin: 120px auto 100px;
 }

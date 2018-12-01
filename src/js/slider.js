@@ -3,7 +3,6 @@ export default class Slider {
         this.container = document.getElementById('slider-block');
         this.leftBtn = document.getElementById('left-arrow');
         this.rightBtn = document.getElementById('right-arrow');
-        this.hideButtons = document.getElementById('header-menu');
         this.slides = Array.from(document.getElementsByClassName('header__slider'));
         this.buttonsBlock = document.getElementById('slider__buttons');
         this.slideButtons = Array.from(document.getElementsByClassName('slider__button'));
@@ -11,7 +10,7 @@ export default class Slider {
         this.rightBtn.addEventListener('click', this.moveRight.bind(this));
         this.buttonsBlock.addEventListener('click', this.showSlide.bind(this));
         document.getElementById('logo').addEventListener('click', this.showSlider.bind(this));
-        this.hideButtons.addEventListener('click', this.hideSlider.bind(this));
+        document.addEventListener('click', this.hideSlider.bind(this));
         this.autoSlider = setInterval(this.moveRight.bind(this), 4000);
     }
 
@@ -48,12 +47,13 @@ export default class Slider {
     }
 
     showSlide(event) {
-        this.slideButtons.forEach((button) => button.classList.remove('slider__button--active'));
-        this.slides.forEach((slide) => slide.classList.remove('header__slider--active'));
-        let currentButton = this.slideButtons.findIndex((button) => button === event.target);
-        this.slideButtons[currentButton].classList.add('slider__button--active');
-        this.slides[currentButton].classList.add('header__slider--active');
-
+        if (event.target.classList.contains('slider__button')) {
+            this.slideButtons.forEach((button) => button.classList.remove('slider__button--active'));
+            this.slides.forEach((slide) => slide.classList.remove('header__slider--active'));
+            let currentButton = this.slideButtons.findIndex((button) => button === event.target);
+            this.slideButtons[currentButton].classList.add('slider__button--active');
+            this.slides[currentButton].classList.add('header__slider--active');
+        }
     }
 
     showSlider() {
@@ -62,7 +62,10 @@ export default class Slider {
     }
 
     hideSlider(event) {
-        this.container.classList.add('header__slider_block--hidden');
+        if (event.target.classList.contains('menu__item') || event.target.classList.contains('submenu__item') || event.target.parentNode.classList.contains('search_block__button') || event.target.classList.contains('test-list__option')) {
+            this.container.classList.add('header__slider_block--hidden');
             clearInterval(this.autoSlider);
+        }
+
     }
 }
