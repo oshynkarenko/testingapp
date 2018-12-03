@@ -18,10 +18,7 @@
   left: 65%;
   @media screen and (max-width: 992px) {
     left:50%;
-  }
-  @media screen and (max-width: 780px) {
-    left:50%;
-    transform: translateX(-60%);
+    transform: translateX(-50%);
   }
 }
 
@@ -40,6 +37,9 @@
   background-color: rgba(219, 245, 246, 0.9);
   color: #178286;
   font-size: 16px;
+  @media screen and (max-width: 780px) {
+    width: 50%;
+  }
 }
 
 .search_block__categories, .search_block__button {
@@ -52,6 +52,9 @@
 .search_block__categories {
   width: 100px;
   color: #178286;
+  @media screen and (max-width: 780px) {
+    width: 30%;
+  }
 }
 
 .search_block__category:hover {

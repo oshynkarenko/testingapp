@@ -83,6 +83,9 @@ export default class Search {
 
     showResults(event) {
         if (event.target.classList.contains('search_block__button') || event.target.classList.contains('button__icon')) {
+            document.getElementById('filters').classList.remove('sidebar--active');
+            document.getElementById('filters').innerHTML = '';
+            document.getElementById('timer-block').innerHTML = '';
             this.categorized.classList.remove('search_block--home');
             this.container = event.target.parentNode.parentNode || event.target.parentNode.parentNode.parentNode;
             this.getQuestionList(event);
