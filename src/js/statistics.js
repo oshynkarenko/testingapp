@@ -68,7 +68,7 @@ export default class Statistics {
     }
 
     renderCells(data) {
-        let cellsMarkUp = data.map((elem) => `<tr><td>${elem.question}</td><td class="table__result">${Math.round(elem.correctanswers / elem.answercount * 100)} %</td></tr>`);
+        let cellsMarkUp = data.map((elem) => `<tr><td class="table__cell">${elem.question}</td><td class="table__result">${Math.round(elem.correctanswers / elem.answercount * 100)} %</td></tr>`);
         return cellsMarkUp.reduce((accum, elem) => accum + elem);
     }
 

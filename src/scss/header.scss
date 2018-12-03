@@ -97,6 +97,9 @@
 			display: none;
 		}
 	}
+	&:last-of-type::after {
+		border-right: none;
+	}
 }
 
 .header__menu--mobile .menu__item, .header__menu--mobile .menu__item--dropdown {
@@ -176,6 +179,7 @@
 	position: relative;
 	height: calc(100vh - 50px);
 	overflow: hidden;
+	-ms-scroll-limit: 0 0 0 0;
 	@media screen and (max-width: 780px) {
 		height: 70vh;
 	}

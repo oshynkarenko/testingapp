@@ -30,7 +30,7 @@ export default class Timer {
     };
 
     stop(event) {
-        if (event.target === document.querySelector('.test__end_button')) {
+        if (event.target.classList.contains('test__end_button')) {
             clearInterval(this.id);
         }
     }

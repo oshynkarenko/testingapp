@@ -1,9 +1,15 @@
 .search_block, .search_block--categorized {
   display: flex;
+  justify-content: flex-start;
   width: 250px;
   margin-top: 20px;
   height: 40px;
   z-index: 1;
+  @media screen and (max-width: 780px) {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
 
 .search_block--categorized {
@@ -44,7 +50,7 @@
 }
 
 .search_block__categories {
-  width: 200px;
+  width: 100px;
   color: #178286;
 }
 

@@ -1,66 +1,353 @@
 [
   {
     "id": "j1",
-    "question": "ABCDE",
-    "options" : ["&lt;h1&gt;", "&lt;head&gt;", "&lt;h6&gt;", "&lt;heading&gt;"],
-    "answer": "h1",
-    "complexity": "1",
-    "subcategory": "html"
+    "question": "List any five features of Java?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "medium",
+    "type": "open",
+    "subcategory": "general"
   },
   {
     "id": "j2",
-    "question": "Block elements are normally displayed without starting a new line.",
+    "question": "Static functions can be accessed using null reference",
     "options" : ["true","false"],
     "answer": "false",
-    "complexity": "1",
-    "subcategory": "html"
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "functions"
   },
   {
     "id": "j3",
-    "question": "In HTML, what does the &lt;aside&gt; element define?",
-    "options" : ["Content aside from the page content", "A navigation list to be shown at the left side of the page", "The ASCII character-set; to send information between computers on the Internet"],
-    "answer": "Content aside from the page content",
-    "complexity": "1",
-    "subcategory": "html"
+    "question": "What is the size of double variable?",
+    "options" : ["8 bit", "16 bit", "32 bit", "64 bit"],
+    "answer": "64 bit",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
   },
   {
     "id": "j4",
-    "question": "Which is the correct CSS syntax?",
-    "options" : ["body:color=black;", "{body:color=black;}", "body {color: black;}", "{body;color:black;}"],
-    "answer": "body {color: black;}",
-    "complexity": "1",
-    "subcategory": "css"
+    "question": "What is the default value of short variable?",
+    "options" : ["0.0", "0", "null", "undefined"],
+    "answer": "0.0",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
   },
   {
     "id": "j5",
-    "question": "How do you display hyperlinks without an underline?",
-    "options" : ["a {text-decoration:no-underline;}", "a {underline:none;}", "a {decoration:no-underline;}", "a {text-decoration:none;}"],
-    "answer": "a {text-decoration:none;}",
-    "complexity": "1",
-    "subcategory": "css"
+    "question": "Which of the following stands true about default modifier of class members?",
+    "options" : ["By default, variables, methods and constructors can be accessed by subclass only", "By default, variables, methods and constructors can be accessed by any class lying in any package", "By default, variables, methods and constructors can be accessed by any class lying in the same package", "None of the above"],
+    "answer": "By default, variables, methods and constructors can be accessed by any class lying in the same package",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "OOPS"
   },
   {
     "id": "j6",
-    "question": "When using the padding property; are you allowed to use negative values?",
-    "options" : ["no", "yes"],
-    "answer": "no",
-    "complexity": "2",
-    "subcategory": "css"
+    "question": "What is class variable?",
+    "options" : ["class variables are static variables within a class but outside any method", "class variables are variables defined inside methods, constructors or blocks", "class variables are variables within a class but outside any method", "None of the above"],
+    "answer": "class variables are static variables within a class but outside any method",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "OOPS"
   },
   {
     "id": "j7",
-    "question": "What is the default value of the position property?",
-    "options" : ["static", "absolute", "relative", "fixed"],
-    "answer": "static",
-    "complexity": "1",
-    "subcategory": "css"
+    "question": "What kind of variables a class can consist of?",
+    "options" : ["class variables, instance variables", "class variables, local variables, instance variables", "class variables", "class variables, local variables"],
+    "answer": "class variables, local variables, instance variables",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "OOPS"
   },
   {
     "id": "j8",
-    "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
+    "question": "What kind of variables a class can consist of?",
     "options" : "null",
     "answer": "",
-    "complexity": "1",
-    "subcategory": "css"
+    "complexity": "medium",
+    "type": "open",
+    "subcategory": "OOPS"
+  },
+  {
+    "id": "j9",
+    "question": "Method Overloading is an example of",
+    "options" : ["Static Binding", "Dynamic Binding", "Both of the above", "None of the above"],
+    "answer": "Static Binding",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "j10",
+    "question": "Which is the way in which a thread can enter the waiting state?",
+    "options" : ["Invoke its sleep() method", "Invoke object's wait method", "Invoke its suspend() method", "All of the above"],
+    "answer": "All of the above",
+    "complexity": "difficult",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "j11",
+    "question": "What will happen if static modifier is removed from the signature of the main method?",
+    "options" : ["Compilation Error", "RunTime Error: NoSuchMethodError", "Program will compile and run without any output", "Program will compile and run to show the required output"],
+    "answer": "RunTime Error: NoSuchMethodError",
+    "complexity": "difficult",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "j12",
+    "question": "Which of the following is a thread safe?",
+    "options" : ["StringBuilder", "StringBuffer", "Both of the above", "None of the above"],
+    "answer": "StringBuffer",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "j13",
+    "question": "What is Singleton class?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "OOPS"
+  },
+  {
+    "id": "j1",
+    "question": "List any five features of Java?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "medium",
+    "type": "open",
+    "subcategory": "general"
+  },
+  {
+    "id": "j2",
+    "question": "Static functions can be accessed using null reference",
+    "options" : ["true","false"],
+    "answer": "false",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "functions"
+  },
+  {
+    "id": "j3",
+    "question": "What is the size of double variable?",
+    "options" : ["8 bit", "16 bit", "32 bit", "64 bit"],
+    "answer": "64 bit",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "j4",
+    "question": "What is the default value of short variable?",
+    "options" : ["0.0", "0", "null", "undefined"],
+    "answer": "0.0",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "j5",
+    "question": "Which of the following stands true about default modifier of class members?",
+    "options" : ["By default, variables, methods and constructors can be accessed by subclass only", "By default, variables, methods and constructors can be accessed by any class lying in any package", "By default, variables, methods and constructors can be accessed by any class lying in the same package", "None of the above"],
+    "answer": "By default, variables, methods and constructors can be accessed by any class lying in the same package",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "OOPS"
+  },
+  {
+    "id": "j6",
+    "question": "What is class variable?",
+    "options" : ["class variables are static variables within a class but outside any method", "class variables are variables defined inside methods, constructors or blocks", "class variables are variables within a class but outside any method", "None of the above"],
+    "answer": "class variables are static variables within a class but outside any method",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "OOPS"
+  },
+  {
+    "id": "j7",
+    "question": "What kind of variables a class can consist of?",
+    "options" : ["class variables, instance variables", "class variables, local variables, instance variables", "class variables", "class variables, local variables"],
+    "answer": "class variables, local variables, instance variables",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "OOPS"
+  },
+  {
+    "id": "j8",
+    "question": "What kind of variables a class can consist of?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "medium",
+    "type": "open",
+    "subcategory": "OOPS"
+  },
+  {
+    "id": "j9",
+    "question": "Method Overloading is an example of",
+    "options" : ["Static Binding", "Dynamic Binding", "Both of the above", "None of the above"],
+    "answer": "Static Binding",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "j10",
+    "question": "Which is the way in which a thread can enter the waiting state?",
+    "options" : ["Invoke its sleep() method", "Invoke object's wait method", "Invoke its suspend() method", "All of the above"],
+    "answer": "All of the above",
+    "complexity": "difficult",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "j11",
+    "question": "What will happen if static modifier is removed from the signature of the main method?",
+    "options" : ["Compilation Error", "RunTime Error: NoSuchMethodError", "Program will compile and run without any output", "Program will compile and run to show the required output"],
+    "answer": "RunTime Error: NoSuchMethodError",
+    "complexity": "difficult",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "j12",
+    "question": "Which of the following is a thread safe?",
+    "options" : ["StringBuilder", "StringBuffer", "Both of the above", "None of the above"],
+    "answer": "StringBuffer",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "j13",
+    "question": "What is Singleton class?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "OOPS"
+  },
+  {
+    "id": "j1",
+    "question": "List any five features of Java?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "medium",
+    "type": "open",
+    "subcategory": "general"
+  },
+  {
+    "id": "j2",
+    "question": "Static functions can be accessed using null reference",
+    "options" : ["true","false"],
+    "answer": "false",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "functions"
+  },
+  {
+    "id": "j3",
+    "question": "What is the size of double variable?",
+    "options" : ["8 bit", "16 bit", "32 bit", "64 bit"],
+    "answer": "64 bit",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "j4",
+    "question": "What is the default value of short variable?",
+    "options" : ["0.0", "0", "null", "undefined"],
+    "answer": "0.0",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "j5",
+    "question": "Which of the following stands true about default modifier of class members?",
+    "options" : ["By default, variables, methods and constructors can be accessed by subclass only", "By default, variables, methods and constructors can be accessed by any class lying in any package", "By default, variables, methods and constructors can be accessed by any class lying in the same package", "None of the above"],
+    "answer": "By default, variables, methods and constructors can be accessed by any class lying in the same package",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "OOPS"
+  },
+  {
+    "id": "j6",
+    "question": "What is class variable?",
+    "options" : ["class variables are static variables within a class but outside any method", "class variables are variables defined inside methods, constructors or blocks", "class variables are variables within a class but outside any method", "None of the above"],
+    "answer": "class variables are static variables within a class but outside any method",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "OOPS"
+  },
+  {
+    "id": "j7",
+    "question": "What kind of variables a class can consist of?",
+    "options" : ["class variables, instance variables", "class variables, local variables, instance variables", "class variables", "class variables, local variables"],
+    "answer": "class variables, local variables, instance variables",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "OOPS"
+  },
+  {
+    "id": "j8",
+    "question": "What kind of variables a class can consist of?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "medium",
+    "type": "open",
+    "subcategory": "OOPS"
+  },
+  {
+    "id": "j9",
+    "question": "Method Overloading is an example of",
+    "options" : ["Static Binding", "Dynamic Binding", "Both of the above", "None of the above"],
+    "answer": "Static Binding",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "j10",
+    "question": "Which is the way in which a thread can enter the waiting state?",
+    "options" : ["Invoke its sleep() method", "Invoke object's wait method", "Invoke its suspend() method", "All of the above"],
+    "answer": "All of the above",
+    "complexity": "difficult",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "j11",
+    "question": "What will happen if static modifier is removed from the signature of the main method?",
+    "options" : ["Compilation Error", "RunTime Error: NoSuchMethodError", "Program will compile and run without any output", "Program will compile and run to show the required output"],
+    "answer": "RunTime Error: NoSuchMethodError",
+    "complexity": "difficult",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "j12",
+    "question": "Which of the following is a thread safe?",
+    "options" : ["StringBuilder", "StringBuffer", "Both of the above", "None of the above"],
+    "answer": "StringBuffer",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "j13",
+    "question": "What is Singleton class?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "OOPS"
   }
 ]

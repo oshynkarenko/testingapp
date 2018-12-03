@@ -20,7 +20,7 @@ export default class Filters {
     }
 
     removeFilters(event) {
-        if (event.target.textContent !== 'Tests' && event.target.parentNode.parentNode !== this.openLink) {
+        if (event.target.textContent !== 'Tests' && event.target.parentNode.parentNode !== this.openLink && event.target.classList.contains('header__top') === false) {
             this.container.classList.remove('sidebar--active');
             content.classList.remove('content__test');
         }

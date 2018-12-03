@@ -9,23 +9,29 @@ export default class Test {
         this.createLink = document.getElementById('create_test_link');
         this.openLink.addEventListener('click', this.render.bind(this));
         content.addEventListener('click', this.render.bind(this));
-        //this.createLink.addEventListener('click', this.getAllQuestions.bind(this));
+        content.addEventListener('click', this.saveResults.bind(this));
+        content.addEventListener('click', this.sendResult.bind(this));
         this.filters = new Filters();
         this.allQuestions = [];
         this.markup = [];
         this.currentPageMarkup = [];
+        this.result = {};
+        this.topic = '';
     }
 
     render(event) {
-        if (event.currentTarget === this.openLink || event.target.classList.contains('test-list__option')) {
-            this.filters.render(event);
-            this.renderMessage(event);
-            this.filteredLink = document.getElementById('filter_button');
-            this.filteredLink.addEventListener('click', this.renderFilteredTest.bind(this));
-            if (event.target.textContent !== 'Tests') {
-                this.startButton = document.getElementById('start_test');
-                this.startButton.addEventListener('click', this.makeTest.bind(this));
-                this.getData(this.setDataUrls(event));
+        if(event.target !== this.openLink) {
+            if (event.currentTarget === this.openLink || event.target.classList.contains('test-list__option')) {
+                this.filters.render(event);
+                this.renderMessage(event);
+                this.filteredLink = document.getElementById('filter_button');
+                this.filteredLink.addEventListener('click', this.renderFilteredTest.bind(this));
+                if (event.target.textContent !== 'Tests') {
+                    this.topic = event.target.textContent;
+                    this.startButton = document.getElementById('start_test');
+                    this.startButton.addEventListener('click', this.makeTest.bind(this));
+                    this.getData(this.setDataUrls(event));
+                }
             }
         }
     }
@@ -59,7 +65,7 @@ export default class Test {
 
     createTestMarkup(data) {
         let markup = data.map((elem) => createQuestionsMarkup(elem));
-        this.markup = markup.map((elem, i) => i === markup.length - 1 ? `<ul class="questionnaire">${elem}</ul><button class="test__end_button">Submit Answers</button>` : `<ul class="questionnaire">${elem}</ul>`)
+        this.markup = markup.map((elem, i) => i === markup.length - 1 ? `<ul class="questionnaire">${elem}</ul><button class="test__end_button" id="end-test">Submit Answers</button>` : `<ul class="questionnaire">${elem}</ul>`)
         return this.markup;
 
         function createOptionsMarkup(elem) {
@@ -90,6 +96,7 @@ export default class Test {
     }
 
     getData(url) {
+        this.allQuestions = [];
         let saveData = this.saveData.bind(this);
         let request = new XMLHttpRequest();
         request.open('get', url);
@@ -129,5 +136,94 @@ export default class Test {
         this.renderTestPage(this.currentPageMarkup);
         this.pagination.render();
         new Timer();
+    }
+
+    saveResults(event) {
+        if (event.target.classList.contains('pagination__arrow') || event.target.classList.contains('pagination__page') || event.target.classList.contains('test__end_button')) {
+            this.result = {};
+            let questionArr = this.pagination.dataByPage[this.pagination.currentPage - 1];
+            let questions = Array.from(document.getElementsByClassName('question'));
+            let answers = questions.map((question) => {
+                let options = Array.from(question.getElementsByClassName('question__button'));
+                let answer;
+                let answerText;
+                if (options.length > 0) {
+                    answer = options.find((option) => option.checked === true);
+                    if (answer) {
+                        return answerText = answer.parentNode.textContent;
+                    } else {
+                        return answerText = '';
+                    }
+                } else {
+                    return answerText = 'not checked';
+                }
+            });
+            questionArr.forEach((question, index) => {
+                if (question.type === 'open') {
+                    this.result[question.id] = '';
+                } else {
+                    if (question.answer === answers[index]) {
+                        this.result[question.id] = 'correct';
+                    } else {
+                        this.result[question.id] = 'wrong';
+                    }
+                }
+                sessionStorage.setItem('test_result', JSON.stringify(this.result));
+                return this.result;
+            })
+        }
+    }
+
+    sendResult(event) {
+        if (event.target.classList.contains('test__end_button')) {
+            let correctAnswers = 0;
+            let result = JSON.parse(sessionStorage.getItem('test_result'));
+            let totalQuestions = Object.keys(result).length;
+            for (let key in result) {
+                result[key] === 'correct'? correctAnswers++ : correctAnswers;
+            }
+            let allRes = {
+                test: this.topic,
+                result: Math.round(correctAnswers / totalQuestions * 100)
+            }
+            this.showResults(allRes.result);
+            /*let urlAll = '../data/results/all.json';
+            let urlTopic = `../data/results/${this.topic}.json`;
+            let requestAll = new XMLHttpRequest();
+            requestAll.open('POST', urlAll);
+            requestAll.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            requestAll.send(JSON.stringify(allRes));
+            let topicResult;
+            let requestTopic = new XMLHttpRequest();
+            requestTopic.open('GET', urlTopic);
+            requestTopic.onreadystatechange = function() {
+                if (request.readyState !== 4) return;
+                let data = JSON.parse(request.responseText);
+                topicResult = data.map((elem) => {
+                if (this.result[elem.id] === 'correct') {
+                    return {
+                        id: elem.id,
+                        question: elem.question,
+                        answercount: ++elem.answercount,
+                        correctanswers: ++elem.correctanswers,
+                        subcategory: elem.subcategory
+                    }
+                } else {
+                    return {
+                        id: elem.id,
+                        question: elem.question,
+                        answercount: ++elem.answercount,
+                        correctanswers: elem.correctanswers,
+                        subcategory: elem.subcategory
+                    }
+                }
+                return topicResult;
+            })
+            }
+            requestTopic.send(topicResult);*/
+        }
+    }
+    showResults(res) {
+        content.innerHTML = `<h3 class="content__header--small">You scored ${res} points.</h3><p class="content__text--centered">If your test included open questions, they will be evaluated additionally and added to your total score later</p>`
     }
 }

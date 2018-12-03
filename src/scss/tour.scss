@@ -53,6 +53,9 @@
   text-decoration: none;
   text-align: center;
   cursor: pointer;
+  &:last-of-type {
+    margin-bottom: 50px;
+  }
 }
 
 .tour__search_block {

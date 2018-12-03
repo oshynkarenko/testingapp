@@ -12,7 +12,7 @@ export default class Search {
     updateLayout(event) {
         if (event.target === document.getElementById('logo')) {
             this.categorized.classList.add('search_block--home');
-        } else {
+        } else if (event.target.classList.contains('menu__item--dropdown') === false) {
             this.categorized.classList.remove('search_block--home');
         }
         if (content.classList.contains('content__search_results')) {

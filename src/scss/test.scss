@@ -2,6 +2,7 @@
   position: relative;
   top: 150px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: flex-start;
   width: 65%;
@@ -39,10 +40,22 @@
     background: #ebebeb;
     border-radius: 10px;
   }
+  @media screen and (max-width: 580px) {
+    width: 15%;
+    margin: 0;
+    top: 180px;
+    overflow: hidden;
+  }
 }
 
 .filter, .filter * {
   list-style-type: none;
+}
+
+.filter {
+  @media screen and (max-width: 580px) {
+    display: none;
+  }
 }
 
 .filter__criteria {
@@ -72,6 +85,15 @@
   color: #ebebeb;
   font-weight: bold;
   text-transform: uppercase;
+  @media screen and (max-width: 580px) {
+    display: none;
+  }
+}
+
+.filter__button.filter__button--mobile {
+  position: relative;
+  bottom: 0;
+  display: block;
 }
 
 .question, .question__option {

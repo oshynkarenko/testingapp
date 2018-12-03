@@ -62,10 +62,11 @@ export default class Slider {
     }
 
     hideSlider(event) {
-        if (event.target.classList.contains('menu__item') || event.target.classList.contains('submenu__item') || event.target.parentNode.classList.contains('search_block__button') || event.target.classList.contains('test-list__option')) {
-            this.container.classList.add('header__slider_block--hidden');
-            clearInterval(this.autoSlider);
+        if (this.container.classList.contains('header__slider_block--hidden') === false) {
+            if (event.target.classList.contains('menu__item') || event.target.classList.contains('submenu__item') || event.target.parentNode.classList.contains('search_block__button') || event.target.classList.contains('test-list__option')) {
+                this.container.classList.add('header__slider_block--hidden');
+                clearInterval(this.autoSlider);
+            }
         }
-
     }
 }

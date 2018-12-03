@@ -1,66 +1,238 @@
 [
   {
-    "id": "j1",
-    "question": "FGHIJ",
-    "options" : ["&lt;h1&gt;", "&lt;head&gt;", "&lt;h6&gt;", "&lt;heading&gt;"],
-    "answer": "h1",
-    "complexity": "1",
-    "subcategory": "html"
+    "id": "c1",
+    "question": "The default access specifer for the class members is",
+    "options" : ["public", "private", "protected", "none of the above"],
+    "answer": "private",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "class"
+
   },
   {
-    "id": "j2",
-    "question": "Block elements are normally displayed without starting a new line.",
-    "options" : ["true","false"],
-    "answer": "false",
-    "complexity": "1",
-    "subcategory": "html"
+    "id": "c2",
+    "question": "Which data type can be used to hold a wide character in C++?",
+    "options" : ["unsigned char","int", "wchar_t", "none of the above"],
+    "answer": "wchar_t",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
   },
   {
-    "id": "j3",
-    "question": "In HTML, what does the &lt;aside&gt; element define?",
-    "options" : ["Content aside from the page content", "A navigation list to be shown at the left side of the page", "The ASCII character-set; to send information between computers on the Internet"],
-    "answer": "Content aside from the page content",
-    "complexity": "1",
-    "subcategory": "html"
+    "id": "c3",
+    "question": "Designer of C++ programming language",
+    "options" : ["Charles Babbage", "Dennis Ritchie", "Brain Kernighan", "Bjarne Stroustrup"],
+    "answer": "Bjarne Stroustrup",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
   },
   {
-    "id": "j4",
-    "question": "Which is the correct CSS syntax?",
-    "options" : ["body:color=black;", "{body:color=black;}", "body {color: black;}", "{body;color:black;}"],
-    "answer": "body {color: black;}",
-    "complexity": "1",
-    "subcategory": "css"
+    "id": "c4",
+    "question": "What is the full form of RTTI",
+    "options" : ["Runtime type identification", "Runtime template identification", "Robust Template Type Inheritance", "None of the above"],
+    "answer": "Runtime type identification",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
   },
   {
-    "id": "j5",
-    "question": "How do you display hyperlinks without an underline?",
-    "options" : ["a {text-decoration:no-underline;}", "a {underline:none;}", "a {decoration:no-underline;}", "a {text-decoration:none;}"],
-    "answer": "a {text-decoration:none;}",
-    "complexity": "1",
-    "subcategory": "css"
+    "id": "c5",
+    "question": "How can we make an class act as an interface in C++?",
+    "options" : ["By only providing all the functions as virtual functions in the class", "Defining the class following with the keyword virtual", "Defining the class following with the keyword interface", "Defining the class following with the keyword abstract"],
+    "answer": "By only providing all the functions as virtual functions in the class",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "class"
   },
   {
-    "id": "j6",
-    "question": "When using the padding property; are you allowed to use negative values?",
-    "options" : ["no", "yes"],
-    "answer": "no",
-    "complexity": "2",
-    "subcategory": "css"
+    "id": "c6",
+    "question": "The copy constructor is executed on",
+    "options" : ["Assigned one object to another object at its creation", "When objects are sent to function using call by value mechanism", "When the function return an object", "All the above"],
+    "answer": "All the above",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "object"
   },
   {
-    "id": "j7",
-    "question": "What is the default value of the position property?",
-    "options" : ["static", "absolute", "relative", "fixed"],
-    "answer": "static",
-    "complexity": "1",
-    "subcategory": "css"
+    "id": "c7",
+    "question": "Following is the invalid inclusion of a file to the current program. Identify it",
+    "options" : ["#include &lt;file&gt;>", "#include 'file'", "#include &lt; file", "All of the above are invalid"],
+    "answer": "#include &lt; file",
+    "complexity": "difficult",
+    "type": "with options",
+    "subcategory": "general"
   },
   {
-    "id": "j8",
-    "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
+    "id": "c8",
+    "question": "A trigraph character begins with",
+    "options" : ["#", "##", "?", "??"],
+    "answer": "##",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "c9",
+    "question": "Which of the following is not the keyword in C++?",
+    "options" : ["volatile", "friend", "extends", "this"],
+    "answer": "extends",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "c10",
+    "question": "Compiler generates ___ file",
+    "options" : ["Executable code", "Object code", "Assembly code", "None of the above"],
+    "answer": "Assembly code",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "c11",
+    "question": "What is a generic class?",
+    "options" : ["Function template", "Class template", "Inherited class", "None of the above"],
+    "answer": "Class template",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "class"
+  },
+  {
+    "id": "c12",
+    "question": "Objects created using new operator are stored in __ memory",
+    "options" : ["Cache", "Heap", "Stack", "None of the above"],
+    "answer": "Stack",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "object"
+  },
+  {
+    "id": "c13",
+    "question": "List the types of inheritance supported in C++",
     "options" : "null",
     "answer": "",
-    "complexity": "1",
-    "subcategory": "css"
+    "complexity": "difficult",
+    "type": "open",
+    "subcategory": "general"
+  },
+  {
+    "id": "c1",
+    "question": "The default access specifer for the class members is",
+    "options" : ["public", "private", "protected", "none of the above"],
+    "answer": "private",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "class"
+
+  },
+  {
+    "id": "c2",
+    "question": "Which data type can be used to hold a wide character in C++?",
+    "options" : ["unsigned char","int", "wchar_t", "none of the above"],
+    "answer": "wchar_t",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "c3",
+    "question": "Designer of C++ programming language",
+    "options" : ["Charles Babbage", "Dennis Ritchie", "Brain Kernighan", "Bjarne Stroustrup"],
+    "answer": "Bjarne Stroustrup",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "c4",
+    "question": "What is the full form of RTTI",
+    "options" : ["Runtime type identification", "Runtime template identification", "Robust Template Type Inheritance", "None of the above"],
+    "answer": "Runtime type identification",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "c5",
+    "question": "How can we make an class act as an interface in C++?",
+    "options" : ["By only providing all the functions as virtual functions in the class", "Defining the class following with the keyword virtual", "Defining the class following with the keyword interface", "Defining the class following with the keyword abstract"],
+    "answer": "By only providing all the functions as virtual functions in the class",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "class"
+  },
+  {
+    "id": "c6",
+    "question": "The copy constructor is executed on",
+    "options" : ["Assigned one object to another object at its creation", "When objects are sent to function using call by value mechanism", "When the function return an object", "All the above"],
+    "answer": "All the above",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "object"
+  },
+  {
+    "id": "c7",
+    "question": "Following is the invalid inclusion of a file to the current program. Identify it",
+    "options" : ["#include &lt;file&gt;>", "#include 'file'", "#include &lt; file", "All of the above are invalid"],
+    "answer": "#include &lt; file",
+    "complexity": "difficult",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "c8",
+    "question": "A trigraph character begins with",
+    "options" : ["#", "##", "?", "??"],
+    "answer": "##",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "c9",
+    "question": "Which of the following is not the keyword in C++?",
+    "options" : ["volatile", "friend", "extends", "this"],
+    "answer": "extends",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "c10",
+    "question": "Compiler generates ___ file",
+    "options" : ["Executable code", "Object code", "Assembly code", "None of the above"],
+    "answer": "Assembly code",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "general"
+  },
+  {
+    "id": "c11",
+    "question": "What is a generic class?",
+    "options" : ["Function template", "Class template", "Inherited class", "None of the above"],
+    "answer": "Class template",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "class"
+  },
+  {
+    "id": "c12",
+    "question": "Objects created using new operator are stored in __ memory",
+    "options" : ["Cache", "Heap", "Stack", "None of the above"],
+    "answer": "Stack",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "object"
+  },
+  {
+    "id": "c13",
+    "question": "List the types of inheritance supported in C++",
+    "options" : "null",
+    "answer": "",
+    "complexity": "difficult",
+    "type": "open",
+    "subcategory": "general"
   }
 ]

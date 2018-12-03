@@ -3,7 +3,7 @@
     "id": "f1",
     "question": "Choose the correct HTML element for the largest heading",
     "options" : ["&lt;h1&gt;", "&lt;head&gt;", "&lt;h6&gt;", "&lt;heading&gt;"],
-    "answer": "h1",
+    "answer": "&lt;h1&gt;",
     "complexity": "easy",
     "type": "with options",
     "subcategory": "html"
@@ -72,16 +72,88 @@
     "subcategory": "css"
   },
   {
-    "id": "f1",
+    "id": "f9",
+    "question": "Can you access Cookie using javascript?",
+    "options" : ["true", "false"],
+    "answer": "true",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f10",
+    "question": "Which of the following is the correct syntax to redirect a url using JavaScript?",
+    "options" : ["document.location='http://www.newlocation.com';","browser.location='http://www.newlocation.com';", "navigator.location='http://www.newlocation.com';", "window.location='http://www.newlocation.com';"],
+    "answer": "window.location='http://www.newlocation.com';",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f11",
+    "question": "Which built-in method removes the last element from an array and returns that element?",
+    "options" : ["last()", "get()", "pop", "None of the above"],
+    "answer": "pop()",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f12",
+    "question": "Which built-in method returns the characters in a string beginning at the specified location?",
+    "options" : ["substr()", "getSubstring()", "slice()", "None of the above"],
+    "answer": "substr()",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f13",
+    "question": "How can you create an Array in JavaScript?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "medium",
+    "type": "open",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f14",
+    "question": "Which of the following function of String object executes the search for a match between a regular expression and a specified string?",
+    "options" : ["concat()", "match()", "replace()", "search()"],
+    "answer": "search()",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f15",
+    "question": "Which of the following function of Boolean object returns the primitive value of the Boolean object?",
+    "options" : ["toSource()", "valueOf()", "toString()", "None of the above"],
+    "answer": "valueOf()",
+    "complexity": "difficult",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f16",
+    "question": "Which of the following function of Array object creates a new array with the results of calling a provided function on every element in this array?",
+    "options" : ["push()", "join()", "pop()", "map()"],
+    "answer": "map()",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f17",
     "question": "Choose the correct HTML element for the largest heading",
     "options" : ["&lt;h1&gt;", "&lt;head&gt;", "&lt;h6&gt;", "&lt;heading&gt;"],
-    "answer": "h1",
+    "answer": "&lt;h1&gt;",
     "complexity": "easy",
     "type": "with options",
     "subcategory": "html"
   },
   {
-    "id": "f2",
+    "id": "f18",
     "question": "Block elements are normally displayed without starting a new line.",
     "options" : ["true","false"],
     "answer": "false",
@@ -90,7 +162,7 @@
     "subcategory": "html"
   },
   {
-    "id": "f3",
+    "id": "f19",
     "question": "In HTML, what does the &lt;aside&gt; element define?",
     "options" : ["Content aside from the page content", "A navigation list to be shown at the left side of the page", "The ASCII character-set; to send information between computers on the Internet"],
     "answer": "Content aside from the page content",
@@ -99,7 +171,7 @@
     "subcategory": "html"
   },
   {
-    "id": "f4",
+    "id": "f20",
     "question": "Which is the correct CSS syntax?",
     "options" : ["body:color=black;", "{body:color=black;}", "body {color: black;}", "{body;color:black;}"],
     "answer": "body {color: black;}",
@@ -108,7 +180,7 @@
     "subcategory": "css"
   },
   {
-    "id": "f5",
+    "id": "f21",
     "question": "How do you display hyperlinks without an underline?",
     "options" : ["a {text-decoration:no-underline;}", "a {underline:none;}", "a {decoration:no-underline;}", "a {text-decoration:none;}"],
     "answer": "a {text-decoration:none;}",
@@ -117,7 +189,7 @@
     "subcategory": "css"
   },
   {
-    "id": "f6",
+    "id": "f22",
     "question": "When using the padding property; are you allowed to use negative values?",
     "options" : ["no", "yes"],
     "answer": "no",
@@ -126,7 +198,7 @@
     "subcategory": "css"
   },
   {
-    "id": "f7",
+    "id": "f23",
     "question": "What is the default value of the position property?",
     "options" : ["static", "absolute", "relative", "fixed"],
     "answer": "static",
@@ -135,24 +207,96 @@
     "subcategory": "css"
   },
   {
-    "id": "f8",
+    "id": "f24",
     "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
     "options" : "null",
     "answer": "",
     "complexity": "medium",
     "type": "open",
     "subcategory": "css"
-  }, {
-  "id": "f1",
+  },
+  {
+    "id": "f25",
+    "question": "Can you access Cookie using javascript?",
+    "options" : ["true", "false"],
+    "answer": "true",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f26",
+    "question": "Which of the following is the correct syntax to redirect a url using JavaScript?",
+    "options" : ["document.location='http://www.newlocation.com';","browser.location='http://www.newlocation.com';", "navigator.location='http://www.newlocation.com';", "window.location='http://www.newlocation.com';"],
+    "answer": "window.location='http://www.newlocation.com';",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f27",
+    "question": "Which built-in method removes the last element from an array and returns that element?",
+    "options" : ["last()", "get()", "pop", "None of the above"],
+    "answer": "pop()",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f28",
+    "question": "Which built-in method returns the characters in a string beginning at the specified location?",
+    "options" : ["substr()", "getSubstring()", "slice()", "None of the above"],
+    "answer": "substr()",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f29",
+    "question": "How can you create an Array in JavaScript?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "medium",
+    "type": "open",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f30",
+    "question": "Which of the following function of String object executes the search for a match between a regular expression and a specified string?",
+    "options" : ["concat()", "match()", "replace()", "search()"],
+    "answer": "search()",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f15",
+    "question": "Which of the following function of Boolean object returns the primitive value of the Boolean object?",
+    "options" : ["toSource()", "valueOf()", "toString()", "None of the above"],
+    "answer": "valueOf()",
+    "complexity": "difficult",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f31",
+    "question": "Which of the following function of Array object creates a new array with the results of calling a provided function on every element in this array?",
+    "options" : ["push()", "join()", "pop()", "map()"],
+    "answer": "map()",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "javascript"
+  },  {
+  "id": "f32",
   "question": "Choose the correct HTML element for the largest heading",
   "options" : ["&lt;h1&gt;", "&lt;head&gt;", "&lt;h6&gt;", "&lt;heading&gt;"],
-  "answer": "h1",
+  "answer": "&lt;h1&gt;",
   "complexity": "easy",
   "type": "with options",
   "subcategory": "html"
 },
   {
-    "id": "f2",
+    "id": "f33",
     "question": "Block elements are normally displayed without starting a new line.",
     "options" : ["true","false"],
     "answer": "false",
@@ -161,7 +305,7 @@
     "subcategory": "html"
   },
   {
-    "id": "f3",
+    "id": "f34",
     "question": "In HTML, what does the &lt;aside&gt; element define?",
     "options" : ["Content aside from the page content", "A navigation list to be shown at the left side of the page", "The ASCII character-set; to send information between computers on the Internet"],
     "answer": "Content aside from the page content",
@@ -170,7 +314,7 @@
     "subcategory": "html"
   },
   {
-    "id": "f4",
+    "id": "f35",
     "question": "Which is the correct CSS syntax?",
     "options" : ["body:color=black;", "{body:color=black;}", "body {color: black;}", "{body;color:black;}"],
     "answer": "body {color: black;}",
@@ -179,7 +323,7 @@
     "subcategory": "css"
   },
   {
-    "id": "f5",
+    "id": "f36",
     "question": "How do you display hyperlinks without an underline?",
     "options" : ["a {text-decoration:no-underline;}", "a {underline:none;}", "a {decoration:no-underline;}", "a {text-decoration:none;}"],
     "answer": "a {text-decoration:none;}",
@@ -188,7 +332,7 @@
     "subcategory": "css"
   },
   {
-    "id": "f6",
+    "id": "f37",
     "question": "When using the padding property; are you allowed to use negative values?",
     "options" : ["no", "yes"],
     "answer": "no",
@@ -197,7 +341,7 @@
     "subcategory": "css"
   },
   {
-    "id": "f7",
+    "id": "f38",
     "question": "What is the default value of the position property?",
     "options" : ["static", "absolute", "relative", "fixed"],
     "answer": "static",
@@ -206,24 +350,97 @@
     "subcategory": "css"
   },
   {
-    "id": "f8",
+    "id": "f39",
     "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
     "options" : "null",
     "answer": "",
     "complexity": "medium",
     "type": "open",
     "subcategory": "css"
-  }, {
-  "id": "f1",
-  "question": "Choose the correct HTML element for the largest heading",
-  "options" : ["&lt;h1&gt;", "&lt;head&gt;", "&lt;h6&gt;", "&lt;heading&gt;"],
-  "answer": "h1",
-  "complexity": "easy",
-  "type": "with options",
-  "subcategory": "html"
-},
+  },
   {
-    "id": "f2",
+    "id": "f40",
+    "question": "Can you access Cookie using javascript?",
+    "options" : ["true", "false"],
+    "answer": "true",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f41",
+    "question": "Which of the following is the correct syntax to redirect a url using JavaScript?",
+    "options" : ["document.location='http://www.newlocation.com';","browser.location='http://www.newlocation.com';", "navigator.location='http://www.newlocation.com';", "window.location='http://www.newlocation.com';"],
+    "answer": "window.location='http://www.newlocation.com';",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f42",
+    "question": "Which built-in method removes the last element from an array and returns that element?",
+    "options" : ["last()", "get()", "pop", "None of the above"],
+    "answer": "pop()",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f43",
+    "question": "Which built-in method returns the characters in a string beginning at the specified location?",
+    "options" : ["substr()", "getSubstring()", "slice()", "None of the above"],
+    "answer": "substr()",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f44",
+    "question": "How can you create an Array in JavaScript?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "medium",
+    "type": "open",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f45",
+    "question": "Which of the following function of String object executes the search for a match between a regular expression and a specified string?",
+    "options" : ["concat()", "match()", "replace()", "search()"],
+    "answer": "search()",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f46",
+    "question": "Which of the following function of Boolean object returns the primitive value of the Boolean object?",
+    "options" : ["toSource()", "valueOf()", "toString()", "None of the above"],
+    "answer": "valueOf()",
+    "complexity": "difficult",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f47",
+    "question": "Which of the following function of Array object creates a new array with the results of calling a provided function on every element in this array?",
+    "options" : ["push()", "join()", "pop()", "map()"],
+    "answer": "map()",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f48",
+    "question": "Choose the correct HTML element for the largest heading",
+    "options" : ["&lt;h1&gt;", "&lt;head&gt;", "&lt;h6&gt;", "&lt;heading&gt;"],
+    "answer": "&lt;h1&gt;",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "html"
+  },
+  {
+    "id": "f49",
     "question": "Block elements are normally displayed without starting a new line.",
     "options" : ["true","false"],
     "answer": "false",
@@ -232,7 +449,7 @@
     "subcategory": "html"
   },
   {
-    "id": "f3",
+    "id": "f50",
     "question": "In HTML, what does the &lt;aside&gt; element define?",
     "options" : ["Content aside from the page content", "A navigation list to be shown at the left side of the page", "The ASCII character-set; to send information between computers on the Internet"],
     "answer": "Content aside from the page content",
@@ -241,7 +458,7 @@
     "subcategory": "html"
   },
   {
-    "id": "f4",
+    "id": "f51",
     "question": "Which is the correct CSS syntax?",
     "options" : ["body:color=black;", "{body:color=black;}", "body {color: black;}", "{body;color:black;}"],
     "answer": "body {color: black;}",
@@ -250,7 +467,7 @@
     "subcategory": "css"
   },
   {
-    "id": "f5",
+    "id": "f52",
     "question": "How do you display hyperlinks without an underline?",
     "options" : ["a {text-decoration:no-underline;}", "a {underline:none;}", "a {decoration:no-underline;}", "a {text-decoration:none;}"],
     "answer": "a {text-decoration:none;}",
@@ -259,7 +476,7 @@
     "subcategory": "css"
   },
   {
-    "id": "f6",
+    "id": "f53",
     "question": "When using the padding property; are you allowed to use negative values?",
     "options" : ["no", "yes"],
     "answer": "no",
@@ -268,7 +485,7 @@
     "subcategory": "css"
   },
   {
-    "id": "f7",
+    "id": "f54",
     "question": "What is the default value of the position property?",
     "options" : ["static", "absolute", "relative", "fixed"],
     "answer": "static",
@@ -277,12 +494,84 @@
     "subcategory": "css"
   },
   {
-    "id": "f8",
+    "id": "f55",
     "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
     "options" : "null",
     "answer": "",
     "complexity": "medium",
     "type": "open",
     "subcategory": "css"
+  },
+  {
+    "id": "f56",
+    "question": "Can you access Cookie using javascript?",
+    "options" : ["true", "false"],
+    "answer": "true",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f10",
+    "question": "Which of the following is the correct syntax to redirect a url using JavaScript?",
+    "options" : ["document.location='http://www.newlocation.com';","browser.location='http://www.newlocation.com';", "navigator.location='http://www.newlocation.com';", "window.location='http://www.newlocation.com';"],
+    "answer": "window.location='http://www.newlocation.com';",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f57",
+    "question": "Which built-in method removes the last element from an array and returns that element?",
+    "options" : ["last()", "get()", "pop", "None of the above"],
+    "answer": "pop()",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f58",
+    "question": "Which built-in method returns the characters in a string beginning at the specified location?",
+    "options" : ["substr()", "getSubstring()", "slice()", "None of the above"],
+    "answer": "substr()",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f59",
+    "question": "How can you create an Array in JavaScript?",
+    "options" : "null",
+    "answer": "",
+    "complexity": "medium",
+    "type": "open",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f60",
+    "question": "Which of the following function of String object executes the search for a match between a regular expression and a specified string?",
+    "options" : ["concat()", "match()", "replace()", "search()"],
+    "answer": "search()",
+    "complexity": "medium",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f61",
+    "question": "Which of the following function of Boolean object returns the primitive value of the Boolean object?",
+    "options" : ["toSource()", "valueOf()", "toString()", "None of the above"],
+    "answer": "valueOf()",
+    "complexity": "difficult",
+    "type": "with options",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "f62",
+    "question": "Which of the following function of Array object creates a new array with the results of calling a provided function on every element in this array?",
+    "options" : ["push()", "join()", "pop()", "map()"],
+    "answer": "map()",
+    "complexity": "easy",
+    "type": "with options",
+    "subcategory": "javascript"
   }
 ]

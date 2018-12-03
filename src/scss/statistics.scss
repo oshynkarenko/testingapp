@@ -43,7 +43,7 @@
   width: 60%;
   margin: 0 auto 70px;
   @media screen and (max-width: 992px) {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -76,4 +76,8 @@
 
 .table__result {
   text-align: center;
+}
+
+.table__header {
+  vertical-align: top;
 }
