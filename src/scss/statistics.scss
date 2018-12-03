@@ -30,6 +30,7 @@
   color: #178286;
   text-transform: uppercase;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .table__controls__button--active {
@@ -48,6 +49,10 @@
 
 .table__head {
   line-height: 4em;
+}
+
+.table__header {
+  white-space: nowrap;
 }
 
 .table__sort_button {

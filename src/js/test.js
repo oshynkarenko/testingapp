@@ -88,7 +88,7 @@ export default class Test {
         if (event.target.textContent !== 'Tests') {
             if (event.target.textContent === 'Apply Filters') {
                 let selectedAreas = Array.from(this.filters.options).filter((elem) => elem.checked === true);
-                return selectedAreas.map((area) => `../data/questions/${area.labels[0].textContent.toLowerCase()}.json`);
+                return selectedAreas.map((area) => `../data/questions/${area.parentNode.textContent.toLowerCase()}.json`);
             } else {
                 return `../data/questions/${event.target.textContent.toLowerCase()}.json`;
             }

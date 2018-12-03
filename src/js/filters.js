@@ -36,6 +36,8 @@ export default class Filters {
     }
 
     checkOptions(event) {
+        debugger;
+
         if (event.target.classList.contains('filter__option')) {
             if(event.target.checked === true) {
                 let selectedArea = event.target;

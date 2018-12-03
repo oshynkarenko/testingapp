@@ -17,6 +17,9 @@
   text-align: center;
   color: #178286;
   line-height: 2em;
+  @media screen and (max-width: 992px) {
+    font-size: 0.8em;
+  }
 }
 
 .timer_block__button {

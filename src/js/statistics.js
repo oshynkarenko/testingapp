@@ -162,8 +162,8 @@ export default class Statistics {
                     ticks: {
                         beginAtZero: true,
                         min: 0,
-                        max: 100,
-                        stepSize: 10,
+                        max: 50,
+                        stepSize: 5,
                         fontColor: '#178286'
                     },
                     gridLines: {
