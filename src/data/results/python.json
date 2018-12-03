@@ -1,58 +1,226 @@
 [
   {
-    "id": "rf1",
-    "question": "Choose the correct HTML element for the largest heading",
-    "answercount": "300",
-    "correctanswers": "280",
-    "subcategory": "html"
+    "id": "rp1",
+    "question": "What is output of − 33 == 33.0",
+    "answercount": "200",
+    "correctanswers": "130",
+    "subcategory": "data types"
   },
   {
-    "id": "rf2",
-    "question": "Block elements are normally displayed without starting a new line.",
-    "answercount": "300",
-    "correctanswers": "260",
-    "subcategory": "html"
+    "id": "rp2",
+    "question": "What are the supported data types in Python?",
+    "answercount": "200",
+    "correctanswers": "180",
+    "subcategory": "general"
   },
   {
-    "id": "rf3",
-    "question": "In HTML, what does the &lt;aside&gt; element define?",
-    "answercount": "300",
-    "correctanswers": "245",
-    "subcategory": "html"
+    "id": "rp3",
+    "question": "Pylab is a package that combine _______,________&______ into a single namespace.",
+    "answercount": "200",
+    "correctanswers": "160",
+    "subcategory": "data types"
   },
   {
-    "id": "rf4",
-    "question": "Which is the correct CSS syntax?",
-    "answercount": "300",
-    "correctanswers": "230",
-    "subcategory": "css"
+    "id": "rp4",
+    "question": "What command is used to shuffle a list ‘L’?",
+    "answercount": "200",
+    "correctanswers": "110",
+    "subcategory": "data types"
   },
   {
-    "id": "rf5",
-    "question": "How do you display hyperlinks without an underline?",
-    "answercount": "300",
-    "correctanswers": "276",
-    "subcategory": "css"
+    "id": "rp5",
+    "question": "What is the output of print str + 'TEST' if str = 'Hello World!'?",
+    "answercount": "200",
+    "correctanswers": "100",
+    "subcategory": "data types"
   },
   {
-    "id": "rf6",
-    "question": "When using the padding property; are you allowed to use negative values?",
-    "answercount": "300",
-    "correctanswers": "235",
-    "subcategory": "css"
+    "id": "rp6",
+    "question": "Which among them is incorrect for set s={100,101,102,103}",
+    "answercount": "200",
+    "correctanswers": "98",
+    "subcategory": "data types"
   },
   {
-    "id": "rf7",
-    "question": "What is the default value of the position property?",
-    "answercount": "300",
-    "correctanswers": "254",
-    "subcategory": "css"
+    "id": "rp7",
+    "question": "Which way among them is used to create an event loop?",
+    "answercount": "200",
+    "correctanswers": "77",
+    "subcategory": "loops"
   },
   {
-    "id": "rf8",
-    "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
-    "answercount": "300",
-    "correctanswers": "280",
-    "subcategory": "css"
+    "id": "rp8",
+    "question": "How will you convert a string to a set in python?",
+    "answercount": "200",
+    "correctanswers": "130",
+    "subcategory": "general"
+  },
+  {
+    "id": "rp9",
+    "question": "What is output of − 33 == 33.0",
+    "answercount": "200",
+    "correctanswers": "190",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rp10",
+    "question": "What are the supported data types in Python?",
+    "answercount": "200",
+    "correctanswers": "160",
+    "subcategory": "general"
+  },
+  {
+    "id": "rp11",
+    "question": "Pylab is a package that combine _______,________&______ into a single namespace.",
+    "answercount": "200",
+    "correctanswers": "164",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rp12",
+    "question": "What command is used to shuffle a list ‘L’?",
+    "answercount": "200",
+    "correctanswers": "130",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rp13",
+    "question": "What is the output of print str + 'TEST' if str = 'Hello World!'?",
+    "answercount": "200",
+    "correctanswers": "130",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rp14",
+    "question": "Which among them is incorrect for set s={100,101,102,103}",
+    "answercount": "200",
+    "correctanswers": "190",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rp15",
+    "question": "Which way among them is used to create an event loop?",
+    "answercount": "200",
+    "correctanswers": "150",
+    "subcategory": "loops"
+  },
+  {
+    "id": "rp16",
+    "question": "How will you convert a string to a set in python?",
+    "answercount": "200",
+    "correctanswers": "178",
+    "subcategory": "general"
+  },
+  {
+    "id": "rp17",
+    "question": "What is output of − 33 == 33.0",
+    "answercount": "200",
+    "correctanswers": "190",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rp18",
+    "question": "What are the supported data types in Python?",
+    "answercount": "200",
+    "correctanswers": "180",
+    "subcategory": "general"
+  },
+  {
+    "id": "rp19",
+    "question": "Pylab is a package that combine _______,________&______ into a single namespace.",
+    "answercount": "200",
+    "correctanswers": "90",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rp20",
+    "question": "What command is used to shuffle a list ‘L’?",
+    "answercount": "200",
+    "correctanswers": "180",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rp21",
+    "question": "What is the output of print str + 'TEST' if str = 'Hello World!'?",
+    "answercount": "200",
+    "correctanswers": "170",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rp22",
+    "question": "Which among them is incorrect for set s={100,101,102,103}",
+    "answercount": "200",
+    "correctanswers": "180",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rp23",
+    "question": "Which way among them is used to create an event loop?",
+    "answercount": "200",
+    "correctanswers": "120",
+    "subcategory": "loops"
+  },
+  {
+    "id": "rp24",
+    "question": "How will you convert a string to a set in python?",
+    "answercount": "200",
+    "correctanswers": "70",
+    "subcategory": "general"
+  },
+  {
+    "id": "rp25",
+    "question": "What is output of − 33 == 33.0",
+    "answercount": "200",
+    "correctanswers": "165",
+    "subcategory": "data types"
+  },
+  {
+    "id": "p26",
+    "question": "What are the supported data types in Python?",
+    "answercount": "200",
+    "correctanswers": "150",
+    "subcategory": "general"
+  },
+  {
+    "id": "rp27",
+    "question": "Pylab is a package that combine _______,________&______ into a single namespace.",
+    "answercount": "200",
+    "correctanswers": "190",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rp28",
+    "question": "What command is used to shuffle a list ‘L’?",
+    "answercount": "200",
+    "correctanswers": "180",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rp29",
+    "question": "What is the output of print str + 'TEST' if str = 'Hello World!'?",
+    "answercount": "200",
+    "correctanswers": "190",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rp30",
+    "question": "Which among them is incorrect for set s={100,101,102,103}",
+    "answercount": "200",
+    "correctanswers": "110",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rp31",
+    "question": "Which way among them is used to create an event loop?",
+    "answercount": "200",
+    "correctanswers": "160",
+    "subcategory": "loops"
+  },
+  {
+    "id": "rp32",
+    "question": "How will you convert a string to a set in python?",
+    "answercount": "200",
+    "correctanswers": "140",
+    "subcategory": "general"
   }
 ]

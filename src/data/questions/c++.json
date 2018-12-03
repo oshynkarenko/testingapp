@@ -118,7 +118,7 @@
     "subcategory": "general"
   },
   {
-    "id": "c1",
+    "id": "c14",
     "question": "The default access specifer for the class members is",
     "options" : ["public", "private", "protected", "none of the above"],
     "answer": "private",
@@ -128,7 +128,7 @@
 
   },
   {
-    "id": "c2",
+    "id": "c15",
     "question": "Which data type can be used to hold a wide character in C++?",
     "options" : ["unsigned char","int", "wchar_t", "none of the above"],
     "answer": "wchar_t",
@@ -137,7 +137,7 @@
     "subcategory": "general"
   },
   {
-    "id": "c3",
+    "id": "c16",
     "question": "Designer of C++ programming language",
     "options" : ["Charles Babbage", "Dennis Ritchie", "Brain Kernighan", "Bjarne Stroustrup"],
     "answer": "Bjarne Stroustrup",
@@ -146,7 +146,7 @@
     "subcategory": "general"
   },
   {
-    "id": "c4",
+    "id": "c17",
     "question": "What is the full form of RTTI",
     "options" : ["Runtime type identification", "Runtime template identification", "Robust Template Type Inheritance", "None of the above"],
     "answer": "Runtime type identification",
@@ -155,7 +155,7 @@
     "subcategory": "general"
   },
   {
-    "id": "c5",
+    "id": "c18",
     "question": "How can we make an class act as an interface in C++?",
     "options" : ["By only providing all the functions as virtual functions in the class", "Defining the class following with the keyword virtual", "Defining the class following with the keyword interface", "Defining the class following with the keyword abstract"],
     "answer": "By only providing all the functions as virtual functions in the class",
@@ -164,7 +164,7 @@
     "subcategory": "class"
   },
   {
-    "id": "c6",
+    "id": "c19",
     "question": "The copy constructor is executed on",
     "options" : ["Assigned one object to another object at its creation", "When objects are sent to function using call by value mechanism", "When the function return an object", "All the above"],
     "answer": "All the above",
@@ -173,7 +173,7 @@
     "subcategory": "object"
   },
   {
-    "id": "c7",
+    "id": "c20",
     "question": "Following is the invalid inclusion of a file to the current program. Identify it",
     "options" : ["#include &lt;file&gt;>", "#include 'file'", "#include &lt; file", "All of the above are invalid"],
     "answer": "#include &lt; file",
@@ -182,7 +182,7 @@
     "subcategory": "general"
   },
   {
-    "id": "c8",
+    "id": "c21",
     "question": "A trigraph character begins with",
     "options" : ["#", "##", "?", "??"],
     "answer": "##",
@@ -191,7 +191,7 @@
     "subcategory": "general"
   },
   {
-    "id": "c9",
+    "id": "c22",
     "question": "Which of the following is not the keyword in C++?",
     "options" : ["volatile", "friend", "extends", "this"],
     "answer": "extends",
@@ -200,7 +200,7 @@
     "subcategory": "general"
   },
   {
-    "id": "c10",
+    "id": "c23",
     "question": "Compiler generates ___ file",
     "options" : ["Executable code", "Object code", "Assembly code", "None of the above"],
     "answer": "Assembly code",
@@ -209,7 +209,7 @@
     "subcategory": "general"
   },
   {
-    "id": "c11",
+    "id": "c24",
     "question": "What is a generic class?",
     "options" : ["Function template", "Class template", "Inherited class", "None of the above"],
     "answer": "Class template",
@@ -218,7 +218,7 @@
     "subcategory": "class"
   },
   {
-    "id": "c12",
+    "id": "c25",
     "question": "Objects created using new operator are stored in __ memory",
     "options" : ["Cache", "Heap", "Stack", "None of the above"],
     "answer": "Stack",
@@ -227,7 +227,7 @@
     "subcategory": "object"
   },
   {
-    "id": "c13",
+    "id": "c26",
     "question": "List the types of inheritance supported in C++",
     "options" : "null",
     "answer": "",

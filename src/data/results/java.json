@@ -1,58 +1,275 @@
 [
   {
-    "id": "rf1",
-    "question": "Choose the correct HTML element for the largest heading",
-    "answercount": "300",
-    "correctanswers": "280",
-    "subcategory": "html"
+    "id": "rj1",
+    "question": "List any five features of Java?",
+    "answercount": "400",
+    "correctanswers": "380",
+    "subcategory": "general"
   },
   {
-    "id": "rf2",
-    "question": "Block elements are normally displayed without starting a new line.",
-    "answercount": "300",
+    "id": "rj2",
+    "question": "Static functions can be accessed using null reference",
+    "answercount": "400",
+    "correctanswers": "380",
+    "subcategory": "functions"
+  },
+  {
+    "id": "rj3",
+    "question": "What is the size of double variable?",
+    "answercount": "400",
     "correctanswers": "260",
-    "subcategory": "html"
+    "subcategory": "general"
   },
   {
-    "id": "rf3",
-    "question": "In HTML, what does the &lt;aside&gt; element define?",
-    "answercount": "300",
-    "correctanswers": "245",
-    "subcategory": "html"
+    "id": "rj4",
+    "question": "What is the default value of short variable?",
+    "answercount": "400",
+    "correctanswers": "330",
+    "subcategory": "general"
   },
   {
-    "id": "rf4",
-    "question": "Which is the correct CSS syntax?",
-    "answercount": "300",
+    "id": "rj5",
+    "question": "Which of the following stands true about default modifier of class members?",
+    "answercount": "400",
+    "correctanswers": "250",
+    "subcategory": "oops"
+  },
+  {
+    "id": "rj6",
+    "question": "What is class variable?",
+    "answercount": "400",
     "correctanswers": "230",
-    "subcategory": "css"
+    "subcategory": "oops"
   },
   {
-    "id": "rf5",
-    "question": "How do you display hyperlinks without an underline?",
-    "answercount": "300",
-    "correctanswers": "276",
-    "subcategory": "css"
+    "id": "rj7",
+    "question": "What kind of variables a class can consist of?",
+    "answercount": "400",
+    "correctanswers": "230",
+    "subcategory": "oops"
   },
   {
-    "id": "rf6",
-    "question": "When using the padding property; are you allowed to use negative values?",
-    "answercount": "300",
-    "correctanswers": "235",
-    "subcategory": "css"
+    "id": "rj8",
+    "question": "What kind of variables a class can consist of?",
+    "answercount": "400",
+    "correctanswers": "360",
+    "subcategory": "oops"
   },
   {
-    "id": "rf7",
-    "question": "What is the default value of the position property?",
-    "answercount": "300",
-    "correctanswers": "254",
-    "subcategory": "css"
+    "id": "rj9",
+    "question": "Method Overloading is an example of",
+    "answercount": "400",
+    "correctanswers": "300",
+    "subcategory": "general"
   },
   {
-    "id": "rf8",
-    "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
-    "answercount": "300",
-    "correctanswers": "280",
-    "subcategory": "css"
+    "id": "rj10",
+    "question": "Which is the way in which a thread can enter the waiting state?",
+    "answercount": "400",
+    "correctanswers": "130",
+    "subcategory": "general"
+  },
+  {
+    "id": "rj11",
+    "question": "What will happen if static modifier is removed from the signature of the main method?",
+    "answercount": "400",
+    "correctanswers": "270",
+    "subcategory": "general"
+  },
+  {
+    "id": "rj12",
+    "question": "Which of the following is a thread safe?",
+    "answercount": "400",
+    "correctanswers": "210",
+    "subcategory": "general"
+  },
+  {
+    "id": "rj13",
+    "question": "What is Singleton class?",
+    "answercount": "400",
+    "correctanswers": "130",
+    "subcategory": "oops"
+  },
+  {
+    "id": "rj14",
+    "question": "List any five features of Java?",
+    "answercount": "400",
+    "correctanswers": "100",
+    "subcategory": "general"
+  },
+  {
+    "id": "rj15",
+    "question": "Static functions can be accessed using null reference",
+    "answercount": "400",
+    "correctanswers": "210",
+    "subcategory": "functions"
+  },
+  {
+    "id": "rj16",
+    "question": "What is the size of double variable?",
+    "answercount": "400",
+    "correctanswers": "230",
+    "subcategory": "general"
+  },
+  {
+    "id": "rj17",
+    "question": "What is the default value of short variable?",
+    "answercount": "400",
+    "correctanswers": "340",
+    "subcategory": "general"
+    },
+  {
+    "id": "rj18",
+    "question": "Which of the following stands true about default modifier of class members?",
+    "answercount": "400",
+    "correctanswers": "310",
+    "subcategory": "oops"
+  },
+  {
+    "id": "rj19",
+    "question": "What is class variable?",
+    "answercount": "400",
+    "correctanswers": "230",
+    "subcategory": "oops"
+  },
+  {
+    "id": "rj20",
+    "question": "What kind of variables a class can consist of?",
+    "answercount": "400",
+    "correctanswers": "230",
+    "subcategory": "oops"
+  },
+  {
+    "id": "rj21",
+    "question": "What kind of variables a class can consist of?",
+    "answercount": "400",
+    "correctanswers": "380",
+    "subcategory": "oops"
+  },
+  {
+    "id": "rj22",
+    "question": "Method Overloading is an example of",
+    "answercount": "400",
+    "correctanswers": "130",
+    "subcategory": "general"
+  },
+  {
+    "id": "rj23",
+    "question": "Which is the way in which a thread can enter the waiting state?",
+    "answercount": "400",
+    "correctanswers": "350",
+    "subcategory": "general"
+  },
+  {
+    "id": "rj24",
+    "question": "What will happen if static modifier is removed from the signature of the main method?",
+    "answercount": "400",
+    "correctanswers": "265",
+    "subcategory": "general"
+  },
+  {
+    "id": "rj25",
+    "question": "Which of the following is a thread safe?",
+    "answercount": "400",
+    "correctanswers": "164",
+    "subcategory": "general"
+  },
+  {
+    "id": "rj26",
+    "question": "What is Singleton class?",
+    "answercount": "400",
+    "correctanswers": "100",
+    "subcategory": "oops"
+  },
+  {
+    "id": "rj27",
+    "question": "List any five features of Java?",
+    "answercount": "400",
+    "correctanswers": "178",
+    "subcategory": "general"
+  },
+  {
+    "id": "rj28",
+    "question": "Static functions can be accessed using null reference",
+    "answercount": "400",
+    "correctanswers": "330",
+    "subcategory": "functions"
+  },
+  {
+    "id": "rj29",
+    "question": "What is the size of double variable?",
+    "answercount": "400",
+    "correctanswers": "333",
+    "subcategory": "general"
+  },
+  {
+    "id": "rj30",
+    "question": "What is the default value of short variable?",
+    "answercount": "400",
+    "correctanswers": "220",
+    "subcategory": "general"
+  },
+  {
+    "id": "rj31",
+    "question": "Which of the following stands true about default modifier of class members?",
+    "answercount": "400",
+    "correctanswers": "200",
+    "subcategory": "oops"
+  },
+  {
+    "id": "rj32",
+    "question": "What is class variable?",
+    "answercount": "400",
+    "correctanswers": "216",
+    "subcategory": "oops"
+  },
+  {
+    "id": "rj33",
+    "question": "What kind of variables a class can consist of?",
+    "answercount": "400",
+    "correctanswers": "230",
+    "subcategory": "oops"
+  },
+  {
+    "id": "rj34",
+    "question": "What kind of variables a class can consist of?",
+    "answercount": "400",
+    "correctanswers": "330",
+    "subcategory": "oops"
+  },
+  {
+    "id": "rj35",
+    "question": "Method Overloading is an example of",
+    "answercount": "400",
+    "correctanswers": "211",
+    "subcategory": "general"
+  },
+  {
+    "id": "rj36",
+    "question": "Which is the way in which a thread can enter the waiting state?",
+    "answercount": "400",
+    "correctanswers": "230",
+    "subcategory": "general"
+  },
+  {
+    "id": "rj37",
+    "question": "What will happen if static modifier is removed from the signature of the main method?",
+    "answercount": "400",
+    "correctanswers": "190",
+    "subcategory": "general"
+  },
+  {
+    "id": "rj38",
+    "question": "Which of the following is a thread safe?",
+    "answercount": "400",
+    "correctanswers": "230",
+    "subcategory": "general"
+  },
+  {
+    "id": "rj39",
+    "question": "What is Singleton class?",
+    "answercount": "400",
+    "correctanswers": "230",
+    "subcategory": "oops"
   }
 ]

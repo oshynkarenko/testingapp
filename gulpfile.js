@@ -74,13 +74,13 @@ gulp.task('data', () => {
 
 gulp.task('img', () => {
   return gulp.src(path.src.img)
-    /*.pipe(imagemin(
+    .pipe(imagemin(
       imagemin.svgo({
         plugins: [
           { removeViewBox: true },
           { cleanupIDs: false }
         ]
-      })))*/
+      })))
     .pipe(gulp.dest(path.dist.img))
     .pipe(browserSync.reload({
       stream: true
@@ -99,37 +99,20 @@ gulp.task('js', () => {
   return gulp.src(path.src.js)
   .pipe(webpackStream(webpackConfig), webpack)
     .pipe(gulp.dest(path.dist.js));
-    /*.pipe(babel({
-      presets: ['env']
-    }))
-    .pipe(order([
-      'data.js',
-      'tabs.js',
-      'table-control-block.js',
-      
-      'edit-actions.js',
-      'table.js',
-      'field-settings.js',
-      '*.js'
-    ]))
-    .pipe(concat('index.js'))
-    // .pipe(uglify())
-    .pipe(gulp.dest(path.dist.js))
-    .pipe(browserSync.reload({
-      stream: true
-    }));*/
 });
 
 gulp.task('watch', () => {
   gulp.watch(path.src.html)
     .on('change', gulp.parallel('html'));
-    gulp.watch(path.src.scss)
+  gulp.watch(path.src.scss)
     .on('change', gulp.parallel('css'));
-    gulp.watch(path.src.img)
+  gulp.watch(path.src.img)
     .on('change', gulp.parallel('img'));
-    gulp.watch(path.src.fonts)
+  gulp.watch(path.src.html)
+    .on('change', gulp.parallel('data'));
+  gulp.watch(path.src.fonts)
     .on('change', gulp.parallel('fonts'));
-    gulp.watch(path.src.js)
+  gulp.watch(path.src.js)
     .on('change', gulp.parallel('js'));
 });
 

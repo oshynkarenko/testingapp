@@ -42,7 +42,7 @@
     "answer": "By default, variables, methods and constructors can be accessed by any class lying in the same package",
     "complexity": "medium",
     "type": "with options",
-    "subcategory": "OOPS"
+    "subcategory": "oops"
   },
   {
     "id": "j6",
@@ -51,7 +51,7 @@
     "answer": "class variables are static variables within a class but outside any method",
     "complexity": "medium",
     "type": "with options",
-    "subcategory": "OOPS"
+    "subcategory": "oops"
   },
   {
     "id": "j7",
@@ -60,7 +60,7 @@
     "answer": "class variables, local variables, instance variables",
     "complexity": "easy",
     "type": "with options",
-    "subcategory": "OOPS"
+    "subcategory": "oops"
   },
   {
     "id": "j8",
@@ -69,7 +69,7 @@
     "answer": "",
     "complexity": "medium",
     "type": "open",
-    "subcategory": "OOPS"
+    "subcategory": "oops"
   },
   {
     "id": "j9",
@@ -114,10 +114,10 @@
     "answer": "",
     "complexity": "medium",
     "type": "with options",
-    "subcategory": "OOPS"
+    "subcategory": "oops"
   },
   {
-    "id": "j1",
+    "id": "j14",
     "question": "List any five features of Java?",
     "options" : "null",
     "answer": "",
@@ -126,7 +126,7 @@
     "subcategory": "general"
   },
   {
-    "id": "j2",
+    "id": "j15",
     "question": "Static functions can be accessed using null reference",
     "options" : ["true","false"],
     "answer": "false",
@@ -135,7 +135,7 @@
     "subcategory": "functions"
   },
   {
-    "id": "j3",
+    "id": "j16",
     "question": "What is the size of double variable?",
     "options" : ["8 bit", "16 bit", "32 bit", "64 bit"],
     "answer": "64 bit",
@@ -144,7 +144,7 @@
     "subcategory": "general"
   },
   {
-    "id": "j4",
+    "id": "j17",
     "question": "What is the default value of short variable?",
     "options" : ["0.0", "0", "null", "undefined"],
     "answer": "0.0",
@@ -153,43 +153,43 @@
     "subcategory": "general"
   },
   {
-    "id": "j5",
+    "id": "j18",
     "question": "Which of the following stands true about default modifier of class members?",
     "options" : ["By default, variables, methods and constructors can be accessed by subclass only", "By default, variables, methods and constructors can be accessed by any class lying in any package", "By default, variables, methods and constructors can be accessed by any class lying in the same package", "None of the above"],
     "answer": "By default, variables, methods and constructors can be accessed by any class lying in the same package",
     "complexity": "medium",
     "type": "with options",
-    "subcategory": "OOPS"
+    "subcategory": "oops"
   },
   {
-    "id": "j6",
+    "id": "j19",
     "question": "What is class variable?",
     "options" : ["class variables are static variables within a class but outside any method", "class variables are variables defined inside methods, constructors or blocks", "class variables are variables within a class but outside any method", "None of the above"],
     "answer": "class variables are static variables within a class but outside any method",
     "complexity": "medium",
     "type": "with options",
-    "subcategory": "OOPS"
+    "subcategory": "oops"
   },
   {
-    "id": "j7",
+    "id": "j20",
     "question": "What kind of variables a class can consist of?",
     "options" : ["class variables, instance variables", "class variables, local variables, instance variables", "class variables", "class variables, local variables"],
     "answer": "class variables, local variables, instance variables",
     "complexity": "easy",
     "type": "with options",
-    "subcategory": "OOPS"
+    "subcategory": "oops"
   },
   {
-    "id": "j8",
+    "id": "j21",
     "question": "What kind of variables a class can consist of?",
     "options" : "null",
     "answer": "",
     "complexity": "medium",
     "type": "open",
-    "subcategory": "OOPS"
+    "subcategory": "oops"
   },
   {
-    "id": "j9",
+    "id": "j22",
     "question": "Method Overloading is an example of",
     "options" : ["Static Binding", "Dynamic Binding", "Both of the above", "None of the above"],
     "answer": "Static Binding",
@@ -198,7 +198,7 @@
     "subcategory": "general"
   },
   {
-    "id": "j10",
+    "id": "j23",
     "question": "Which is the way in which a thread can enter the waiting state?",
     "options" : ["Invoke its sleep() method", "Invoke object's wait method", "Invoke its suspend() method", "All of the above"],
     "answer": "All of the above",
@@ -207,7 +207,7 @@
     "subcategory": "general"
   },
   {
-    "id": "j11",
+    "id": "j24",
     "question": "What will happen if static modifier is removed from the signature of the main method?",
     "options" : ["Compilation Error", "RunTime Error: NoSuchMethodError", "Program will compile and run without any output", "Program will compile and run to show the required output"],
     "answer": "RunTime Error: NoSuchMethodError",
@@ -216,7 +216,7 @@
     "subcategory": "general"
   },
   {
-    "id": "j12",
+    "id": "j25",
     "question": "Which of the following is a thread safe?",
     "options" : ["StringBuilder", "StringBuffer", "Both of the above", "None of the above"],
     "answer": "StringBuffer",
@@ -225,16 +225,16 @@
     "subcategory": "general"
   },
   {
-    "id": "j13",
+    "id": "j26",
     "question": "What is Singleton class?",
     "options" : "null",
     "answer": "",
     "complexity": "medium",
     "type": "with options",
-    "subcategory": "OOPS"
+    "subcategory": "oops"
   },
   {
-    "id": "j1",
+    "id": "j27",
     "question": "List any five features of Java?",
     "options" : "null",
     "answer": "",
@@ -243,7 +243,7 @@
     "subcategory": "general"
   },
   {
-    "id": "j2",
+    "id": "j28",
     "question": "Static functions can be accessed using null reference",
     "options" : ["true","false"],
     "answer": "false",
@@ -252,7 +252,7 @@
     "subcategory": "functions"
   },
   {
-    "id": "j3",
+    "id": "j29",
     "question": "What is the size of double variable?",
     "options" : ["8 bit", "16 bit", "32 bit", "64 bit"],
     "answer": "64 bit",
@@ -261,7 +261,7 @@
     "subcategory": "general"
   },
   {
-    "id": "j4",
+    "id": "j30",
     "question": "What is the default value of short variable?",
     "options" : ["0.0", "0", "null", "undefined"],
     "answer": "0.0",
@@ -270,43 +270,43 @@
     "subcategory": "general"
   },
   {
-    "id": "j5",
+    "id": "j31",
     "question": "Which of the following stands true about default modifier of class members?",
     "options" : ["By default, variables, methods and constructors can be accessed by subclass only", "By default, variables, methods and constructors can be accessed by any class lying in any package", "By default, variables, methods and constructors can be accessed by any class lying in the same package", "None of the above"],
     "answer": "By default, variables, methods and constructors can be accessed by any class lying in the same package",
     "complexity": "medium",
     "type": "with options",
-    "subcategory": "OOPS"
+    "subcategory": "oops"
   },
   {
-    "id": "j6",
+    "id": "j32",
     "question": "What is class variable?",
     "options" : ["class variables are static variables within a class but outside any method", "class variables are variables defined inside methods, constructors or blocks", "class variables are variables within a class but outside any method", "None of the above"],
     "answer": "class variables are static variables within a class but outside any method",
     "complexity": "medium",
     "type": "with options",
-    "subcategory": "OOPS"
+    "subcategory": "oops"
   },
   {
-    "id": "j7",
+    "id": "j33",
     "question": "What kind of variables a class can consist of?",
     "options" : ["class variables, instance variables", "class variables, local variables, instance variables", "class variables", "class variables, local variables"],
     "answer": "class variables, local variables, instance variables",
     "complexity": "easy",
     "type": "with options",
-    "subcategory": "OOPS"
+    "subcategory": "oops"
   },
   {
-    "id": "j8",
+    "id": "j34",
     "question": "What kind of variables a class can consist of?",
     "options" : "null",
     "answer": "",
     "complexity": "medium",
     "type": "open",
-    "subcategory": "OOPS"
+    "subcategory": "oops"
   },
   {
-    "id": "j9",
+    "id": "j35",
     "question": "Method Overloading is an example of",
     "options" : ["Static Binding", "Dynamic Binding", "Both of the above", "None of the above"],
     "answer": "Static Binding",
@@ -315,7 +315,7 @@
     "subcategory": "general"
   },
   {
-    "id": "j10",
+    "id": "j36",
     "question": "Which is the way in which a thread can enter the waiting state?",
     "options" : ["Invoke its sleep() method", "Invoke object's wait method", "Invoke its suspend() method", "All of the above"],
     "answer": "All of the above",
@@ -324,7 +324,7 @@
     "subcategory": "general"
   },
   {
-    "id": "j11",
+    "id": "j37",
     "question": "What will happen if static modifier is removed from the signature of the main method?",
     "options" : ["Compilation Error", "RunTime Error: NoSuchMethodError", "Program will compile and run without any output", "Program will compile and run to show the required output"],
     "answer": "RunTime Error: NoSuchMethodError",
@@ -333,7 +333,7 @@
     "subcategory": "general"
   },
   {
-    "id": "j12",
+    "id": "j38",
     "question": "Which of the following is a thread safe?",
     "options" : ["StringBuilder", "StringBuffer", "Both of the above", "None of the above"],
     "answer": "StringBuffer",
@@ -342,12 +342,12 @@
     "subcategory": "general"
   },
   {
-    "id": "j13",
+    "id": "j39",
     "question": "What is Singleton class?",
     "options" : "null",
     "answer": "",
     "complexity": "medium",
     "type": "with options",
-    "subcategory": "OOPS"
+    "subcategory": "oops"
   }
 ]

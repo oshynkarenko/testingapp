@@ -2,57 +2,448 @@
   {
     "id": "rf1",
     "question": "Choose the correct HTML element for the largest heading",
-    "answercount": "300",
-    "correctanswers": "280",
+    "answercount": "500",
+    "correctanswers": "450",
     "subcategory": "html"
   },
   {
     "id": "rf2",
     "question": "Block elements are normally displayed without starting a new line.",
-    "answercount": "300",
-    "correctanswers": "260",
+    "answercount": "500",
+    "correctanswers": "180",
     "subcategory": "html"
   },
   {
     "id": "rf3",
     "question": "In HTML, what does the &lt;aside&gt; element define?",
-    "answercount": "300",
-    "correctanswers": "245",
+    "answercount": "500",
+    "correctanswers": "350",
     "subcategory": "html"
   },
   {
     "id": "rf4",
     "question": "Which is the correct CSS syntax?",
-    "answercount": "300",
-    "correctanswers": "230",
+    "answercount": "500",
+    "correctanswers": "280",
     "subcategory": "css"
   },
   {
     "id": "rf5",
     "question": "How do you display hyperlinks without an underline?",
-    "answercount": "300",
-    "correctanswers": "276",
+    "answercount": "500",
+    "correctanswers": "150",
     "subcategory": "css"
   },
   {
     "id": "rf6",
     "question": "When using the padding property; are you allowed to use negative values?",
-    "answercount": "300",
-    "correctanswers": "235",
+    "answercount": "500",
+    "correctanswers": "120",
     "subcategory": "css"
   },
   {
     "id": "rf7",
     "question": "What is the default value of the position property?",
-    "answercount": "300",
-    "correctanswers": "254",
+    "answercount": "500",
+    "correctanswers": "230",
     "subcategory": "css"
   },
   {
     "id": "rf8",
     "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
-    "answercount": "300",
-    "correctanswers": "280",
+    "answercount": "500",
+    "correctanswers": "250",
     "subcategory": "css"
+  },
+  {
+    "id": "rf9",
+    "question": "Can you access Cookie using javascript?",
+    "answercount": "500",
+    "correctanswers": "150",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf10",
+    "question": "Which of the following is the correct syntax to redirect a url using JavaScript?",
+    "answercount": "500",
+    "correctanswers": "310",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf11",
+    "question": "Which built-in method removes the last element from an array and returns that element?",
+    "answercount": "500",
+    "correctanswers": "150",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf12",
+    "question": "Which built-in method returns the characters in a string beginning at the specified location?",
+    "answercount": "500",
+    "correctanswers": "100",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf13",
+    "question": "How can you create an Array in JavaScript?",
+    "answercount": "500",
+    "correctanswers": "250",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf14",
+    "question": "Which of the following function of String object executes the search for a match between a regular expression and a specified string?",
+    "answercount": "500",
+    "correctanswers": "350",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "3f15",
+    "question": "Which of the following function of Boolean object returns the primitive value of the Boolean object?",
+    "answercount": "500",
+    "correctanswers": "250",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf16",
+    "question": "Which of the following function of Array object creates a new array with the results of calling a provided function on every element in this array?",
+    "answercount": "500",
+    "correctanswers": "350",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf17",
+    "question": "Choose the correct HTML element for the largest heading",
+    "answercount": "500",
+    "correctanswers": "240",
+    "subcategory": "html"
+  },
+  {
+    "id": "rf18",
+    "question": "Block elements are normally displayed without starting a new line.",
+    "answercount": "500",
+    "correctanswers": "280",
+    "subcategory": "html"
+  },
+  {
+    "id": "rf19",
+    "question": "In HTML, what does the &lt;aside&gt; element define?",
+    "answercount": "500",
+    "correctanswers": "250",
+    "subcategory": "html"
+  },
+  {
+    "id": "rf20",
+    "question": "Which is the correct CSS syntax?",
+    "answercount": "500",
+    "correctanswers": "150",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf21",
+    "question": "How do you display hyperlinks without an underline?",
+    "answercount": "500",
+    "correctanswers": "300",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf22",
+    "question": "When using the padding property; are you allowed to use negative values?",
+    "answercount": "500",
+    "correctanswers": "250",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf23",
+    "question": "What is the default value of the position property?",
+    "answercount": "500",
+    "correctanswers": "350",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf24",
+    "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
+    "answercount": "500",
+    "correctanswers": "350",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf25",
+    "question": "Can you access Cookie using javascript?",
+    "answercount": "500",
+    "correctanswers": "110",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf26",
+    "question": "Which of the following is the correct syntax to redirect a url using JavaScript?",
+    "answercount": "500",
+    "correctanswers": "150",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf27",
+    "question": "Which built-in method removes the last element from an array and returns that element?",
+    "answercount": "500",
+    "correctanswers": "230",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf28",
+    "question": "Which built-in method returns the characters in a string beginning at the specified location?",
+    "answercount": "500",
+    "correctanswers": "420",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf29",
+    "question": "How can you create an Array in JavaScript?",
+    "answercount": "500",
+    "correctanswers": "190",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf30",
+    "question": "Which of the following function of String object executes the search for a match between a regular expression and a specified string?",
+    "answercount": "500",
+    "correctanswers": "450",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf15",
+    "question": "Which of the following function of Boolean object returns the primitive value of the Boolean object?",
+    "answercount": "500",
+    "correctanswers": "420",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf31",
+    "question": "Which of the following function of Array object creates a new array with the results of calling a provided function on every element in this array?",
+    "answercount": "500",
+    "correctanswers": "275",
+    "subcategory": "javascript"
+  },  {
+  "id": "rf32",
+  "question": "Choose the correct HTML element for the largest heading",
+  "answercount": "500",
+  "correctanswers": "390",
+  "subcategory": "html"
+},
+  {
+    "id": "rf33",
+    "question": "Block elements are normally displayed without starting a new line.",
+    "answercount": "500",
+    "correctanswers": "450",
+    "subcategory": "html"
+  },
+  {
+    "id": "rf34",
+    "question": "In HTML, what does the &lt;aside&gt; element define?",
+    "answercount": "500",
+    "correctanswers": "420",
+    "subcategory": "html"
+  },
+  {
+    "id": "rf35",
+    "question": "Which is the correct CSS syntax?",
+    "answercount": "500",
+    "correctanswers": "300",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf36",
+    "question": "How do you display hyperlinks without an underline?",
+    "answercount": "500",
+    "correctanswers": "211",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf37",
+    "question": "When using the padding property; are you allowed to use negative values?",
+    "answercount": "500",
+    "correctanswers": "350",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf38",
+    "question": "What is the default value of the position property?",
+    "answercount": "500",
+    "correctanswers": "450",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf39",
+    "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
+    "answercount": "500",
+    "correctanswers": "120",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf40",
+    "question": "Can you access Cookie using javascript?",
+    "answercount": "500",
+    "correctanswers": "410",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf41",
+    "question": "Which of the following is the correct syntax to redirect a url using JavaScript?",
+    "answercount": "500",
+    "correctanswers": "400",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf42",
+    "question": "Which built-in method removes the last element from an array and returns that element?",
+    "answercount": "500",
+    "correctanswers": "410",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf43",
+    "question": "Which built-in method returns the characters in a string beginning at the specified location?",
+    "answercount": "500",
+    "correctanswers": "310",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf44",
+    "question": "How can you create an Array in JavaScript?",
+    "answercount": "500",
+    "correctanswers": "400",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf45",
+    "question": "Which of the following function of String object executes the search for a match between a regular expression and a specified string?",
+    "answercount": "500",
+    "correctanswers": "380",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf46",
+    "question": "Which of the following function of Boolean object returns the primitive value of the Boolean object?",
+    "answercount": "500",
+    "correctanswers": "280",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf47",
+    "question": "Which of the following function of Array object creates a new array with the results of calling a provided function on every element in this array?",
+    "answercount": "500",
+    "correctanswers": "400",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf48",
+    "question": "Choose the correct HTML element for the largest heading",
+    "answercount": "500",
+    "correctanswers": "480",
+    "subcategory": "html"
+  },
+  {
+    "id": "rf49",
+    "question": "Block elements are normally displayed without starting a new line.",
+    "answercount": "500",
+    "correctanswers": "330",
+    "subcategory": "html"
+  },
+  {
+    "id": "rf50",
+    "question": "In HTML, what does the &lt;aside&gt; element define?",
+    "answercount": "500",
+    "correctanswers": "270",
+    "subcategory": "html"
+  },
+  {
+    "id": "rf51",
+    "question": "Which is the correct CSS syntax?",
+    "answercount": "500",
+    "correctanswers": "420",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf52",
+    "question": "How do you display hyperlinks without an underline?",
+    "answercount": "500",
+    "correctanswers": "400",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf53",
+    "question": "When using the padding property; are you allowed to use negative values?",
+    "answercount": "500",
+    "correctanswers": "220",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf54",
+    "question": "What is the default value of the position property?",
+    "answercount": "500",
+    "correctanswers": "345",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf55",
+    "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
+    "answercount": "500",
+    "correctanswers": "470",
+    "subcategory": "css"
+  },
+  {
+    "id": "rf56",
+    "question": "Can you access Cookie using javascript?",
+    "answercount": "500",
+    "correctanswers": "390",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf57",
+    "question": "Which of the following is the correct syntax to redirect a url using JavaScript?",
+    "answercount": "500",
+    "correctanswers": "320",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf58",
+    "question": "Which built-in method removes the last element from an array and returns that element?",
+    "answercount": "500",
+    "correctanswers": "420",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf59",
+    "question": "Which built-in method returns the characters in a string beginning at the specified location?",
+    "answercount": "500",
+    "correctanswers": "410",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf60",
+    "question": "How can you create an Array in JavaScript?",
+    "answercount": "500",
+    "correctanswers": "200",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf61",
+    "question": "Which of the following function of String object executes the search for a match between a regular expression and a specified string?",
+    "answercount": "500",
+    "correctanswers": "150",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf62",
+    "question": "Which of the following function of Boolean object returns the primitive value of the Boolean object?",
+    "answercount": "500",
+    "correctanswers": "220",
+    "subcategory": "javascript"
+  },
+  {
+    "id": "rf63",
+    "question": "Which of the following function of Array object creates a new array with the results of calling a provided function on every element in this array?",
+    "answercount": "500",
+    "correctanswers": "340",
+    "subcategory": "javascript"
   }
 ]

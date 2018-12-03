@@ -1,58 +1,226 @@
 [
   {
-    "id": "rf1",
-    "question": "Choose the correct HTML element for the largest heading",
-    "answercount": "300",
-    "correctanswers": "280",
-    "subcategory": "html"
+    "id": "rr1",
+    "question": "What is the difference between calling super and calling super()?",
+    "answercount": "100",
+    "correctanswers": "28",
+    "subcategory": "oops"
   },
   {
-    "id": "rf2",
-    "question": "Block elements are normally displayed without starting a new line.",
-    "answercount": "300",
-    "correctanswers": "260",
-    "subcategory": "html"
+    "id": "rr2",
+    "question": "Which of the following datatypes are valid in Ruby?",
+    "answercount": "100",
+    "correctanswers": "88",
+    "subcategory": "data types"
   },
   {
-    "id": "rf3",
-    "question": "In HTML, what does the &lt;aside&gt; element define?",
-    "answercount": "300",
-    "correctanswers": "245",
-    "subcategory": "html"
+    "id": "rr3",
+    "question": "What will any variable evaluate to if it is of Boolean data type?",
+    "answercount": "100",
+    "correctanswers": "65",
+    "subcategory": "data types"
   },
   {
-    "id": "rf4",
-    "question": "Which is the correct CSS syntax?",
-    "answercount": "300",
-    "correctanswers": "230",
-    "subcategory": "css"
+    "id": "rr4",
+    "question": "The complement of while loop is until loop",
+    "answercount": "100",
+    "correctanswers": "78",
+    "subcategory": "loops"
   },
   {
-    "id": "rf5",
-    "question": "How do you display hyperlinks without an underline?",
-    "answercount": "300",
-    "correctanswers": "276",
-    "subcategory": "css"
+    "id": "rr5",
+    "question": "What does the 1…10 indicate?",
+    "answercount": "100",
+    "correctanswers": "45",
+    "subcategory": "loops"
   },
   {
-    "id": "rf6",
-    "question": "When using the padding property; are you allowed to use negative values?",
-    "answercount": "300",
-    "correctanswers": "235",
-    "subcategory": "css"
+    "id": "rr6",
+    "question": "Write a single line of Ruby code that prints the Fibonacci sequence of any length as an array.?",
+    "answercount": "100",
+    "correctanswers": "88",
+    "subcategory": "data types"
   },
   {
-    "id": "rf7",
-    "question": "What is the default value of the position property?",
-    "answercount": "300",
-    "correctanswers": "254",
-    "subcategory": "css"
+    "id": "rr7",
+    "question": "Which of the following is not a valid datatype?",
+    "answercount": "100",
+    "correctanswers": "98",
+    "subcategory": "data types"
   },
   {
-    "id": "rf8",
-    "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
-    "answercount": "300",
-    "correctanswers": "280",
-    "subcategory": "css"
+    "id": "rr8",
+    "question": "Array of arrays are called multidimensional arrays.",
+    "answercount": "100",
+    "correctanswers": "76",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rr9",
+    "question": "What is the difference between calling super and calling super()?",
+    "answercount": "100",
+    "correctanswers": "58",
+    "subcategory": "oops"
+  },
+  {
+    "id": "rr10",
+    "question": "Which of the following datatypes are valid in Ruby?",
+    "answercount": "100",
+    "correctanswers": "94",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rr11",
+    "question": "What will any variable evaluate to if it is of Boolean data type?",
+    "answercount": "100",
+    "correctanswers": "52",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rr12",
+    "question": "The complement of while loop is until loop",
+    "answercount": "100",
+    "correctanswers": "84",
+    "subcategory": "loops"
+  },
+  {
+    "id": "rr13",
+    "question": "What does the 1…10 indicate?",
+    "answercount": "100",
+    "correctanswers": "65",
+    "subcategory": "loops"
+  },
+  {
+    "id": "rr14",
+    "question": "Write a single line of Ruby code that prints the Fibonacci sequence of any length as an array.?",
+    "answercount": "100",
+    "correctanswers": "54",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rr15",
+    "question": "Which of the following is not a valid datatype?",
+    "answercount": "100",
+    "correctanswers": "89",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rr16",
+    "question": "Array of arrays are called multidimensional arrays.",
+    "answercount": "100",
+    "correctanswers": "32",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rr17",
+    "question": "What is the difference between calling super and calling super()?",
+    "answercount": "100",
+    "correctanswers": "67",
+    "subcategory": "oops"
+  },
+  {
+    "id": "rr18",
+    "question": "Which of the following datatypes are valid in Ruby?",
+    "answercount": "100",
+    "correctanswers": "86",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rr19",
+    "question": "What will any variable evaluate to if it is of Boolean data type?",
+    "answercount": "100",
+    "correctanswers": "43",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rr20",
+    "question": "The complement of while loop is until loop",
+    "answercount": "100",
+    "correctanswers": "75",
+    "subcategory": "loops"
+  },
+  {
+    "id": "rr21",
+    "question": "What does the 1…10 indicate?",
+    "answercount": "100",
+    "correctanswers": "92",
+    "subcategory": "loops"
+  },
+  {
+    "id": "rr22",
+    "question": "Write a single line of Ruby code that prints the Fibonacci sequence of any length as an array.?",
+    "answercount": "100",
+    "correctanswers": "99",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rr23",
+    "question": "Which of the following is not a valid datatype?",
+    "answercount": "100",
+    "correctanswers": "54",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rr24",
+    "question": "Array of arrays are called multidimensional arrays.",
+    "answercount": "100",
+    "correctanswers": "43",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rr25",
+    "question": "What is the difference between calling super and calling super()?",
+    "answercount": "100",
+    "correctanswers": "54",
+    "subcategory": "oops"
+  },
+  {
+    "id": "rr26",
+    "question": "Which of the following datatypes are valid in Ruby?",
+    "answercount": "100",
+    "correctanswers": "12",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rr27",
+    "question": "What will any variable evaluate to if it is of Boolean data type?",
+    "answercount": "100",
+    "correctanswers": "45",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rr28",
+    "question": "The complement of while loop is until loop",
+    "answercount": "100",
+    "correctanswers": "99",
+    "subcategory": "loops"
+  },
+  {
+    "id": "rr29",
+    "question": "What does the 1…10 indicate?",
+    "answercount": "100",
+    "correctanswers": "43",
+    "subcategory": "loops"
+  },
+  {
+    "id": "rr30",
+    "question": "Write a single line of Ruby code that prints the Fibonacci sequence of any length as an array.?",
+    "answercount": "100",
+    "correctanswers": "90",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rr31",
+    "question": "Which of the following is not a valid datatype?",
+    "answercount": "100",
+    "correctanswers": "52",
+    "subcategory": "data types"
+  },
+  {
+    "id": "rr32",
+    "question": "Array of arrays are called multidimensional arrays.",
+    "answercount": "100",
+    "correctanswers": "99",
+    "subcategory": "data types"
   }
 ]

@@ -1,9 +1,11 @@
 .pagination {
   display: flex;
-  height: 50px;
-  width: 50%;
-  margin: 30px auto 80px;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+  height: 50px;
+  width: 90%;
+  margin: 30px auto 80px;
 }
 
 .pagination__page {

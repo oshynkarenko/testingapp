@@ -1,58 +1,186 @@
 [
-  {
-    "id": "rf1",
-    "question": "Choose the correct HTML element for the largest heading",
-    "answercount": "300",
-    "correctanswers": "280",
-    "subcategory": "html"
-  },
-  {
-    "id": "rf2",
-    "question": "Block elements are normally displayed without starting a new line.",
-    "answercount": "300",
-    "correctanswers": "260",
-    "subcategory": "html"
-  },
-  {
-    "id": "rf3",
-    "question": "In HTML, what does the &lt;aside&gt; element define?",
-    "answercount": "300",
-    "correctanswers": "245",
-    "subcategory": "html"
-  },
-  {
-    "id": "rf4",
-    "question": "Which is the correct CSS syntax?",
-    "answercount": "300",
-    "correctanswers": "230",
-    "subcategory": "css"
-  },
-  {
-    "id": "rf5",
-    "question": "How do you display hyperlinks without an underline?",
-    "answercount": "300",
-    "correctanswers": "276",
-    "subcategory": "css"
-  },
-  {
-    "id": "rf6",
-    "question": "When using the padding property; are you allowed to use negative values?",
-    "answercount": "300",
-    "correctanswers": "235",
-    "subcategory": "css"
-  },
-  {
-    "id": "rf7",
-    "question": "What is the default value of the position property?",
-    "answercount": "300",
-    "correctanswers": "254",
-    "subcategory": "css"
-  },
-  {
-    "id": "rf8",
-    "question": "What is the difference between 'display: none' and 'visibility:hidden'?",
-    "answercount": "300",
-    "correctanswers": "280",
-    "subcategory": "css"
-  }
+    {
+      "id": "rc1",
+      "question": "The default access specifer for the class members is",
+      "answercount": "300",
+      "correctanswers": "280",
+      "subcategory": "class"
+
+    },
+    {
+      "id": "rc2",
+      "question": "Which data type can be used to hold a wide character in C++?",
+      "answercount": "300",
+      "correctanswers": "240",
+      "subcategory": "general"
+    },
+    {
+      "id": "rc3",
+      "question": "Designer of C++ programming language",
+      "answercount": "300",
+      "correctanswers": "140",
+      "subcategory": "general"
+    },
+    {
+      "id": "rc4",
+      "question": "What is the full form of RTTI",
+      "answercount": "300",
+      "correctanswers": "180",
+      "subcategory": "general"
+    },
+    {
+      "id": "rc5",
+      "question": "How can we make an class act as an interface in C++?",
+      "answercount": "300",
+      "correctanswers": "280",
+      "subcategory": "class"
+    },
+    {
+      "id": "rc6",
+      "question": "The copy constructor is executed on",
+      "answercount": "300",
+      "correctanswers": "215",
+      "subcategory": "object"
+    },
+    {
+      "id": "rc7",
+      "question": "Following is the invalid inclusion of a file to the current program. Identify it",
+      "answercount": "300",
+      "correctanswers": "250",
+      "subcategory": "general"
+    },
+    {
+      "id": "rc8",
+      "question": "A trigraph character begins with",
+      "answercount": "300",
+      "correctanswers": "230",
+      "subcategory": "general"
+    },
+    {
+      "id": "rc9",
+      "question": "Which of the following is not the keyword in C++?",
+      "answercount": "300",
+      "correctanswers": "210",
+      "subcategory": "general"
+    },
+    {
+      "id": "rc10",
+      "question": "Compiler generates ___ file",
+      "answercount": "300",
+      "correctanswers": "290",
+      "subcategory": "general"
+    },
+    {
+      "id": "rc11",
+      "question": "What is a generic class?",
+      "answercount": "300",
+      "correctanswers": "260",
+      "subcategory": "class"
+    },
+    {
+      "id": "rc12",
+      "question": "Objects created using new operator are stored in __ memory",
+      "answercount": "300",
+      "correctanswers": "260",
+      "subcategory": "object"
+    },
+    {
+      "id": "rc13",
+      "question": "List the types of inheritance supported in C++",
+      "answercount": "300",
+      "correctanswers": "200",
+      "subcategory": "general"
+    },
+    {
+      "id": "rc14",
+      "question": "The default access specifer for the class members is",
+      "answercount": "300",
+      "correctanswers": "180",
+      "subcategory": "class"
+
+    },
+    {
+      "id": "rc15",
+      "question": "Which data type can be used to hold a wide character in C++?",
+      "answercount": "300",
+      "correctanswers": "160",
+      "subcategory": "general"
+    },
+    {
+      "id": "rc16",
+      "question": "Designer of C++ programming language",
+      "answercount": "300",
+      "correctanswers": "210",
+      "subcategory": "general"
+    },
+    {
+      "id": "rc17",
+      "question": "What is the full form of RTTI",
+      "answercount": "300",
+      "correctanswers": "240",
+      "subcategory": "general"
+    },
+    {
+      "id": "rc18",
+      "question": "How can we make an class act as an interface in C++?",
+      "answercount": "300",
+      "correctanswers": "210",
+      "subcategory": "class"
+    },
+    {
+      "id": "rc19",
+      "question": "The copy constructor is executed on",
+      "answercount": "300",
+      "correctanswers": "280",
+      "subcategory": "object"
+    },
+    {
+      "id": "rc20",
+      "question": "Following is the invalid inclusion of a file to the current program. Identify it",
+      "answercount": "300",
+      "correctanswers": "230",
+      "subcategory": "general"
+    },
+    {
+      "id": "rc21",
+      "question": "A trigraph character begins with",
+      "answercount": "300",
+      "correctanswers": "270",
+      "subcategory": "general"
+    },
+    {
+      "id": "rc22",
+      "question": "Which of the following is not the keyword in C++?",
+      "answercount": "300",
+      "correctanswers": "210",
+      "subcategory": "general"
+    },
+    {
+      "id": "rc23",
+      "question": "Compiler generates ___ file",
+      "answercount": "300",
+      "correctanswers": "280",
+      "subcategory": "general"
+    },
+    {
+      "id": "rc24",
+      "question": "What is a generic class?",
+      "answercount": "300",
+      "correctanswers": "290",
+      "subcategory": "class"
+    },
+    {
+      "id": "rc25",
+      "question": "Objects created using new operator are stored in __ memory",
+      "answercount": "300",
+      "correctanswers": "300",
+      "subcategory": "object"
+    },
+    {
+      "id": "rc26",
+      "question": "List the types of inheritance supported in C++",
+      "answercount": "300",
+      "correctanswers": "250",
+      "subcategory": "general"
+    }
 ]

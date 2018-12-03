@@ -127,6 +127,7 @@ export default class Statistics {
         let areaData = data.filter((elem) => elem.test === area);
         let resArr = [0, 0, 0, 0];
         areaData.map((elem) => {
+            debugger;
             if (elem.result <= 25) {
                 resArr[0]++;
             } else if (elem.result > 25 && elem.result <= 50) {
@@ -161,8 +162,8 @@ export default class Statistics {
                     ticks: {
                         beginAtZero: true,
                         min: 0,
-                        max: 10,
-                        stepSize: 1,
+                        max: 100,
+                        stepSize: 10,
                         fontColor: '#178286'
                     },
                     gridLines: {
